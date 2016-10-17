@@ -1,0 +1,160 @@
+/* Archive Pages 
+================================================== */
+.post-type-archive-service {
+	.cherry-services_title {
+		font-size: 1.5rem;
+		line-height: 1.2em;
+	}
+}
+.post-type-archive-testimonial {
+	.testimonials-item {
+		box-shadow: $boxShadow;
+		border-radius: $borderRadius;
+		padding: 1.5rem 1.875rem 1.875rem;
+		margin: 20px 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.avatar {
+			border-radius: 50%;
+
+			@media (max-width: $screen-xs-min) {
+				float: none;
+				margin: 0 0 20px;
+			}
+		}
+		blockquote {
+			border: none;
+			padding: 0;
+			margin: 0;
+		}
+	}
+}
+/* Archive Pages */
+
+/* Single Pages
+================================================== */
+.single-testimonial,
+.single-team,
+.single-service,
+.single-clients {
+	.paging-navigation {
+		.nav-links {
+			div {
+				&.nav-previous {
+					a:before {
+						content: '\f104';
+						font: 16px/1em $fontawesome;
+						display: inline-block;
+						vertical-align: middle;
+						padding: 0 10px 0 0;
+						@include transition(all 0.3s ease-in-out);
+					}
+				}
+				&.nav-next {
+					a:after {
+						content: '\f105';
+						font: 16px/1em $fontawesome;
+						display: inline-block;
+						vertical-align: middle;
+						padding: 0 0 0 10px;
+						@include transition(all 0.3s ease-in-out);
+					}
+				}
+			}
+		}
+	}
+	figure {
+		max-width: 100%;
+	}
+}
+.testimonials-page-single {
+	box-shadow: $boxShadow;
+	border-radius: $borderRadius;
+	padding: 1.5rem 1.875rem 1.875rem;
+
+	.avatar {
+		border-radius: 50%;
+
+		@media (max-width: $screen-xs-min) {
+			float: none;
+			margin: 0 0 20px;
+		}
+	}
+	blockquote {
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+.single-clients {
+	.entry-thumbnail {
+		padding: 20px;
+		margin: 0 0 20px;
+		border-radius: 5px;
+	}
+}
+.single-service {
+	.service.type-service {
+		padding: 0;
+		margin: 0;
+
+		.cherry-services {
+			margin: 0;
+
+			.cherry-services_item {
+				padding-bottom: 0;
+			}
+			.cherry-services_price {
+				font-size: 45px;
+				line-height: 1.2em;
+				font-weight: normal;
+
+				sup {
+					font-size: 30px;
+					top: -0.6em;
+
+					&.small {
+						font-size: 16px;
+						font-weight: 300;
+						top: -1.4em;
+					}
+				}
+			}
+			.post-content {
+				border-top-width: 2px;
+				border-top-style: solid;
+				padding: 20px 0 8px;
+				margin: 20px 0 0;
+				font-size: 0.875rem;
+				line-height: 1.6em;
+			}
+			.cherry-services_feauters {
+				margin: 0;
+				font-size: 16px;
+				line-height: 23px;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				border: none;
+
+				li {
+					padding: 8px 10px;
+					border-top-width: 1px;
+					border-top-style: solid;
+
+					&:first-child {
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}
+/* Single Pages */

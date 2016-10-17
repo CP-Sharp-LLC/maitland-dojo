@@ -1,0 +1,54 @@
+/* Flat Masks
+================================================== */
+.row-svg {
+  overflow: hidden; }
+  .row-svg > .inner > .container,
+  .row-svg > .inner > .container-fluid {
+    position: relative;
+    z-index: 100; }
+    .row-svg > .inner > .container ~ .masks,
+    .row-svg > .inner > .container-fluid ~ .masks {
+      z-index: 10; }
+
+.parallax-box.parallax-svg .parallax-content {
+  z-index: 101; }
+.parallax-box.parallax-svg .masks {
+  z-index: 100; }
+.parallax-box.parallax-svg .parallax-bg {
+  z-index: 99; }
+
+.masks {
+  position: absolute;
+  bottom: -1px;
+  top: -1px;
+  right: -1px;
+  left: -1px; }
+  .masks .svgmask {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0; }
+    @media (max-width: 1600px) {
+      .masks .svgmask {
+        height: 150px; } }
+    @media (max-width: 768px) {
+      .masks .svgmask {
+        height: 100px; } }
+    .masks .svgmask.top {
+      top: 0; }
+      .only-bottom-padding .masks .svgmask.top .depend {
+        display: none; }
+    .masks .svgmask.bottom {
+      bottom: 0; }
+      .only-top-padding .masks .svgmask.bottom .depend {
+        display: none; }
+
+.cherry-box > .inner {
+  position: relative; }
+
+.row.first .top .triangle.depend {
+  display: none; }
+.row.last .bottom .triangle.depend {
+  display: none; }
+
+/* Flat Masks */

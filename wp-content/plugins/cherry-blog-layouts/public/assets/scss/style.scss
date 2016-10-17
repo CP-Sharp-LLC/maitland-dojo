@@ -1,0 +1,125 @@
+.taxonomy-filter{
+	width: 100%;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	li{
+		display: inline-block;
+		margin: 0 5px;
+			a{
+				&.active{
+					text-decoration: underline;
+				}
+			}
+	}
+}
+.grid-layout{
+	.grid-layout-item{
+		&.clear-item{
+			clear: both;
+		}
+	}
+}
+.masonry-layout{
+	width: 100%;
+	position: relative;
+		.masonry-wrapper{
+			/*-webkit-column-count: 4;
+			-moz-column-count: 4;
+			column-count: 4;
+			-webkit-column-gap: 10px;
+			-moz-column-gap: 10px;
+			column-gap: 10px;*/
+		}
+		.masonry-layout-item{
+			width: 20%;
+			display: inline-block;
+			/*-webkit-transform: translate3d(0, 0, 0);
+			width: 100%;
+			display: inline-block;*/
+		}
+}
+.timeline-layout{
+	width: 100%;
+	position: relative;
+	padding: 20px 0;
+	margin: 20px 0;
+	.timeline-wrapper{
+		position: relative;
+	}
+	section.timeline-group{
+		margin-bottom: 30px;
+	}
+	article.timeline-layout-item{
+		width: 45%;
+		padding: 15px;
+		margin-bottom: 30px;
+		border: 1px solid #ebeaea;
+			&.odd{
+				float: left;
+				clear: left;
+					.marker{
+						left: 50%;
+						margin-left: -5px;
+					}
+					.arrow{
+						left: 50%;
+						border-width: 10px 0 10px 10px;
+						border-color: transparent transparent transparent #ebeaea;
+					}
+			}
+			&.even{
+				float: right;
+				clear: right;
+					.marker{
+						right: 50%;
+						margin-right: -5px;
+						margin-top: 20px;
+					}
+					.arrow{
+						right: 50%;
+						border-width: 10px 10px 10px 0;
+						border-color: transparent #ebeaea transparent transparent;
+						margin-top: 15px;
+					}
+			}
+			.marker{
+				width: 10px;
+				height: 10px;
+				position: absolute;
+				background-color: #ebeaea;
+				display: block;
+				border-radius: 10px;
+					span{
+						white-space: nowrap;
+					}
+			}
+			.arrow{
+				width: 0;
+				height: 0;
+				border-style: solid;
+				position: absolute;
+				display: block;
+				margin-top: -5px;
+			}
+	}
+	span.timeline-line{
+		width: 2px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		background-color: #ebeaea;
+		left: 50%;
+		top: 0;
+		margin-left: -1px;
+		z-index: -1;
+	}
+	.timeline-breakpiont{
+		width: 150px;
+		margin: 20px auto;
+		background-color: #ebeaea;
+		padding: 5px 10px;
+		text-align: center;
+	}
+}

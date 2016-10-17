@@ -1,0 +1,128 @@
+/*
+Theme Name:  Maitland Dojo
+Theme URI:   http://www.cpsharp.net
+Description: Custom Theme for the Maitland Dojo
+Author:      CP Sharp
+Author URI:  http://www.cpsharp.net
+Version:     1.0.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:        fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+Template:    cherryframework4
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 30px;
+  font-family: "Helvetica Neue", helvetica, arial; }
+
+#container {
+  position: relative;
+  width: 940px; }
+  #container:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0; }
+  #container #menu-primary {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5), inset 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.15);
+    background: #ccc; }
+    #container #menu-primary ul {
+      list-style: none;
+      width: auto; }
+
+nav button {
+  display: none; }
+
+#menu-primary-items li {
+  float: left;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.25);
+  perspective: 1000px; }
+  #menu-primary-items li li a {
+    padding-left: 15px;
+    font-weight: 400;
+    color: #ddd;
+    text-shadow: none;
+    border-top: dotted 1px transparent;
+    border-bottom: dotted 1px transparent;
+    transition: all .15s linear; }
+  #menu-primary-items li li a:hover {
+    color: #00dffc;
+    border-top: dotted 1px rgba(255, 255, 255, 0.15);
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.15);
+    background: rgba(0, 223, 252, 0.02); }
+  #menu-primary-items li ul {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: transparent;
+    overflow: hidden;
+    transform-origin: 50% 0%; }
+#menu-primary-items li:first-child {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1), 1px 0 0 rgba(255, 255, 255, 0.25); }
+#menu-primary-items li:hover a {
+  background: #333;
+  color: #00dffc;
+  text-shadow: none; }
+#menu-primary-items li:hover ul {
+  padding: 15px 0;
+  background: #333;
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  animation-name: swingdown;
+  animation-duration: 1s;
+  animation-timing-function: ease; }
+#menu-primary-items a {
+  display: block;
+  position: relative;
+  z-index: 10;
+  padding: 13px 20px 13px 20px;
+  text-decoration: none;
+  color: #4b4b4b;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -.05em;
+  background: transparent;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  transition: all .25s ease-in-out; }
+
+@keyframes swingdown {
+  0% {
+    opacity: .99999;
+    transform: rotateX(90deg); }
+  30% {
+    transform: rotateX(-20deg) rotateY(5deg);
+    animation-timing-function: ease-in-out; }
+  65% {
+    transform: rotateX(20deg) rotateY(-3deg);
+    animation-timing-function: ease-in-out; }
+  100% {
+    transform: rotateX(0);
+    animation-timing-function: ease-in-out; } }
+.static-header-logo {
+  float: left; }
+
+.static-header-menu {
+  float: left;
+  margin-left: 2vw; }
+
+/*# sourceMappingURL=style.css.map */

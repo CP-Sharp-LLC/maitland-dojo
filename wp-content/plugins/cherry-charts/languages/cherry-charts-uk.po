@@ -1,0 +1,608 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-charts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-30 13:01+0200\n"
+"PO-Revision-Date: 2015-10-30 13:01+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:68
+msgid "Define chart settings"
+msgstr "Вкажіть параметри діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:75
+msgid "Set up content settings"
+msgstr "Вкажіть налаштування вмісту"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:82
+msgid "Set up chart data"
+msgstr "Вкажіть дані діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:89
+msgid "Set up chart style"
+msgstr "Оформлення діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:96
+msgid "Shortcode to paste"
+msgstr "Вставити такий шорткод"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:179
+msgid "Chart type"
+msgstr "Тип діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:180
+msgid "Select chart type"
+msgstr "Оберіть тип діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:183
+msgid "Progress Bar"
+msgstr "Смужка поступу"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:184
+msgid "Pie"
+msgstr "Кругова діаграма"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:185
+msgid "Doughnut"
+msgstr "Кільцева діаграма"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:186
+msgid "Bar"
+msgstr "Смужка"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:193
+msgid "Progress bar type"
+msgstr "Тип смужки поступу"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:194
+msgid "Select progress bar type"
+msgstr "Оберіть тип смужки поступу"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:197
+msgid "Radial"
+msgstr "Кругова"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:198
+msgid "Horizontal"
+msgstr "Горизонтальна"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:199
+msgid "Vertical"
+msgstr "Вертикальна"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:207
+msgid "Inner cutout percentage"
+msgstr "Внутрішній виріз у відсотках"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:208
+msgid "Set inner cutout percentage (0 - for pie, > 0 for doughnut)"
+msgstr ""
+"Зазначте внутрішній виріз у відсотках (0 - для кругової діаграми, > 0 для "
+"кільця)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:219
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:220
+msgid "Chart width (for bar chart & non-radial progress bars)"
+msgstr "Ширина діаграми (для смужкової діаграми та некругових смужок поступу)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:230
+msgid "Height"
+msgstr "Висота"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:231
+msgid "Chart height (for bar chart & non-radial progress bars)"
+msgstr "Висота діаграми (для смужкової діаграми та некругових смужок поступу)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:278
+msgid "Progress bar template"
+msgstr "Шаблон смужки поступу"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:279
+msgid ""
+"Select progress bar template (this option allowed only for progress bars)"
+msgstr ""
+"Вкажіть початкову модель смужки поступу (доступно лише для смужок поступу)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:287
+msgid "Chart Icon"
+msgstr "Іконка діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:288
+msgid "Select chart icon"
+msgstr "Оберіть іконку діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:296
+msgid "Chart Icon size"
+msgstr "Розмір іконки"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:297
+msgid "Set chart icon size"
+msgstr "Зазначте розмір іконки"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:307
+msgid "Chart icon color"
+msgstr "Колір іконки діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:315
+msgid "Show chart title"
+msgstr "Відображати заголовок діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:319
+#: includes/admin/class-cherry-charts-meta-boxes.php:331
+#: includes/admin/class-cherry-charts-meta-boxes.php:343
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:320
+#: includes/admin/class-cherry-charts-meta-boxes.php:332
+#: includes/admin/class-cherry-charts-meta-boxes.php:344
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:327
+msgid "Show chart label"
+msgstr "Відображати позначку діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:339
+msgid "Show chart legend"
+msgstr "Відображати підпис діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:436
+msgid "Item #1 color"
+msgstr "Колір елемента #1"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:443
+msgid "Item #2 color"
+msgstr "Колір елемента #2"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:450
+msgid "Item #3 color"
+msgstr "Колір елемента #3"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:457
+msgid "Item #4 color"
+msgstr "Колір елемента #4"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:464
+msgid "Item #5 color"
+msgstr "Колір елемента #5"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:471
+msgid "Item #6 color"
+msgstr "Колір елемента #6"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:478
+msgid "Item #7 color"
+msgstr "Колір елемента #7"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:485
+msgid "Item #8 color"
+msgstr "Колір елемента #8"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:492
+msgid "Item #9 color"
+msgstr "Колір елемента #9"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:499
+msgid "Item #10 color"
+msgstr "Колір елемента #10"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:520
+msgid "Background color"
+msgstr "Колір тла"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:527
+msgid "Items opacity"
+msgstr "Прозорість елементів"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:528
+msgid "Set items opacity (0 - transparent, 100 - opaque)"
+msgstr ""
+"Зазначте рівень прозорості елементів (0 - цілком прозорий, 100 - видимий)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:537
+msgid "Background opacity"
+msgstr "Прозорість тла"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:538
+msgid "Set Background opacity (0 - transparent, 100 - opaque)"
+msgstr "Зазначте рівень прозорості тла (0 - цілком прозоре, 100 - видиме)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:547
+msgid "Chart stroke thickness"
+msgstr "Товщина обведення діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:548
+msgid "Set chart stroke thickness (0 - without stroke)"
+msgstr "Вкажіть товщину обведення діаграми (0 - без обведення)"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:557
+msgid "Chart stroke color"
+msgstr "Колір обведення діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:564
+msgid "Chart stroke opacity"
+msgstr "Прозорість обведення діаграми"
+
+#: includes/admin/class-cherry-charts-meta-boxes.php:565
+msgid "Set Chart stroke opacity (0 - transparent, 100 - opaque)"
+msgstr ""
+"Встановіть прозорість обведення діаграми (0 - прозорий, 100 - непрозорий)"
+
+#: includes/admin/class-cherry-interface-builder.php:104
+#: includes/admin/class-cherry-interface-builder.php:545
+#: includes/admin/class-cherry-interface-builder.php:695
+msgid "Choose Image"
+msgstr "Оберіть зображення"
+
+#: includes/admin/class-cherry-interface-builder.php:105
+msgid "Remove Image"
+msgstr "Видаліть зображення"
+
+#: includes/admin/class-cherry-interface-builder.php:115
+msgid "On"
+msgstr "Увімкнути"
+
+#: includes/admin/class-cherry-interface-builder.php:116
+msgid "Off"
+msgstr "Вимкнути"
+
+#: includes/admin/class-cherry-interface-builder.php:319
+#: includes/admin/class-cherry-interface-builder.php:345
+#: includes/admin/class-cherry-interface-builder.php:352
+#: includes/admin/class-cherry-interface-builder.php:601
+#: includes/admin/class-cherry-interface-builder.php:774
+#: includes/admin/class-cherry-interface-builder.php:781
+#: includes/admin/class-cherry-interface-builder.php:856
+msgid "Step Up"
+msgstr "На крок вперед"
+
+#: includes/admin/class-cherry-interface-builder.php:319
+#: includes/admin/class-cherry-interface-builder.php:345
+#: includes/admin/class-cherry-interface-builder.php:352
+#: includes/admin/class-cherry-interface-builder.php:601
+#: includes/admin/class-cherry-interface-builder.php:774
+#: includes/admin/class-cherry-interface-builder.php:781
+#: includes/admin/class-cherry-interface-builder.php:856
+msgid "Step Down"
+msgstr "На крок назад"
+
+#: includes/admin/class-cherry-interface-builder.php:382
+msgid "Column class(.col-xs-*)"
+msgstr "Клас стовпця (.col-xs-*)"
+
+#: includes/admin/class-cherry-interface-builder.php:392
+msgid "Column class(.col-sm-*)"
+msgstr "Клас стовпця (.col-sm-*)"
+
+#: includes/admin/class-cherry-interface-builder.php:402
+msgid "Column class(.col-md-*)"
+msgstr "Клас стовпця(.col-md-*)"
+
+#: includes/admin/class-cherry-interface-builder.php:412
+msgid "Column class(.col-lg-*)"
+msgstr "Клас стовпця(.col-lg-*)"
+
+#: includes/admin/class-cherry-interface-builder.php:422
+msgid "Custom class"
+msgstr "Користувацький клас"
+
+#: includes/admin/class-cherry-interface-builder.php:436
+msgid "Create new static"
+msgstr "Створіть новий статичний блок"
+
+#: includes/admin/class-cherry-interface-builder.php:437
+msgid "Add new static"
+msgstr "Додайте новий статичний блок на сайт"
+
+#: includes/admin/class-cherry-interface-builder.php:558
+#: includes/admin/class-cherry-interface-builder.php:723
+msgid "Current Image"
+msgstr "Поточне зображення"
+
+#: includes/admin/class-cherry-interface-builder.php:648
+msgid "No repeat"
+msgstr "Не повторювати"
+
+#: includes/admin/class-cherry-interface-builder.php:649
+msgid "Repeat All"
+msgstr "Повторювати усе"
+
+#: includes/admin/class-cherry-interface-builder.php:650
+msgid "Repeat Horizontally"
+msgstr "Повторювати горизонтально"
+
+#: includes/admin/class-cherry-interface-builder.php:651
+msgid "Repeat Vertically"
+msgstr "Повторювати вертикально"
+
+#: includes/admin/class-cherry-interface-builder.php:654
+msgid "Top Left"
+msgstr "Угорі зліва"
+
+#: includes/admin/class-cherry-interface-builder.php:655
+msgid "Top Center"
+msgstr "Угорі посередині"
+
+#: includes/admin/class-cherry-interface-builder.php:656
+msgid "Top Right"
+msgstr "Угорі справа"
+
+#: includes/admin/class-cherry-interface-builder.php:657
+msgid "Middle Left"
+msgstr "Посередині зліва"
+
+#: includes/admin/class-cherry-interface-builder.php:658
+msgid "Middle Center"
+msgstr "Посередині"
+
+#: includes/admin/class-cherry-interface-builder.php:659
+msgid "Middle Right"
+msgstr "Посередині справа"
+
+#: includes/admin/class-cherry-interface-builder.php:660
+msgid "Bottom Left"
+msgstr "Внизу зліва"
+
+#: includes/admin/class-cherry-interface-builder.php:661
+msgid "Bottom Center"
+msgstr "Внизу посередині"
+
+#: includes/admin/class-cherry-interface-builder.php:662
+msgid "Bottom Right"
+msgstr "Внизу справа"
+
+#: includes/admin/class-cherry-interface-builder.php:665
+msgid "Scroll Normally"
+msgstr "Звичайне прокручування"
+
+#: includes/admin/class-cherry-interface-builder.php:666
+msgid "Fixed in Place"
+msgstr "Закріплено у позиції"
+
+#: includes/admin/class-cherry-interface-builder.php:669
+#: includes/admin/class-cherry-interface-builder.php:679
+msgid "Padding box"
+msgstr "Область внутрішнього відступу (padding)"
+
+#: includes/admin/class-cherry-interface-builder.php:670
+#: includes/admin/class-cherry-interface-builder.php:680
+msgid "Border box"
+msgstr "Область з рамкою"
+
+#: includes/admin/class-cherry-interface-builder.php:671
+#: includes/admin/class-cherry-interface-builder.php:681
+msgid "Content box"
+msgstr "Область вмісту"
+
+#: includes/admin/class-cherry-interface-builder.php:674
+msgid "Auto Auto"
+msgstr "Автоматично"
+
+#: includes/admin/class-cherry-interface-builder.php:675
+msgid "Cover"
+msgstr "Заповнювати"
+
+#: includes/admin/class-cherry-interface-builder.php:676
+msgid "Contain"
+msgstr "Вміщати"
+
+#: includes/admin/class-cherry-interface-builder.php:686
+msgid "Background Color"
+msgstr "Колір тла"
+
+#: includes/admin/class-cherry-interface-builder.php:689
+msgid "Background Image"
+msgstr "Зображення тла"
+
+#: includes/admin/class-cherry-interface-builder.php:700
+msgid "Background Settings"
+msgstr "Налаштування тла."
+
+#: includes/admin/class-cherry-interface-builder.php:704
+#, php-format
+msgid "Background %s"
+msgstr "Тло %s"
+
+#: includes/admin/class-cherry-interface-builder.php:760
+msgid "Not defined"
+msgstr "Не визначено"
+
+#: includes/admin/class-cherry-interface-builder.php:761
+msgid "Inherit"
+msgstr "Успадковувати"
+
+#: includes/admin/class-cherry-interface-builder.php:762
+msgid "Left"
+msgstr "Зліва"
+
+#: includes/admin/class-cherry-interface-builder.php:763
+msgid "Right"
+msgstr "Справа"
+
+#: includes/admin/class-cherry-interface-builder.php:764
+msgid "Center"
+msgstr "Посередині"
+
+#: includes/admin/class-cherry-interface-builder.php:765
+msgid "Justify"
+msgstr "Припасувати"
+
+#: includes/admin/class-cherry-interface-builder.php:772
+msgid "Font Size"
+msgstr "Розмір шрифту"
+
+#: includes/admin/class-cherry-interface-builder.php:779
+msgid "Line height"
+msgstr "Висота рядка"
+
+#: includes/admin/class-cherry-interface-builder.php:789
+msgid "Font Family"
+msgstr "Сімейство шрифтів"
+
+#: includes/admin/class-cherry-interface-builder.php:821
+msgid "Font Style"
+msgstr "Стиль шрифту"
+
+#: includes/admin/class-cherry-interface-builder.php:832
+msgid "Character Sets"
+msgstr "Набори символів"
+
+#: includes/admin/class-cherry-interface-builder.php:845
+msgid "Text align"
+msgstr "Вирівнювання тексту"
+
+#: includes/admin/class-cherry-interface-builder.php:854
+msgid "Letter-spacing"
+msgstr "Відстань між літерами"
+
+#: includes/admin/class-cherry-interface-builder.php:860
+msgid "Font color"
+msgstr "Колір шрифта"
+
+#: includes/class-charts-shortcode.php:71
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class-charts-shortcode.php:77
+msgid "Label"
+msgstr "Підпис"
+
+#: includes/class-charts-shortcode.php:83
+msgid "Icon"
+msgstr "Іконка"
+
+#: includes/class-charts-shortcode.php:89
+msgid "Pie icon styles"
+msgstr "Оформлення іконки кругової діаграми"
+
+#: includes/class-charts-shortcode.php:90
+msgid "Apply this only as style attribute value"
+msgstr "Застосувати як значення атрибута стилю"
+
+#: includes/class-charts-shortcode.php:96
+msgid "Progress bar (or pie)"
+msgstr "Смужка поступу (або диск)"
+
+#: includes/class-charts-shortcode.php:102
+msgid "Progress value"
+msgstr "Значення поступу"
+
+#: includes/class-charts-shortcode.php:108
+#: includes/class-cherry-charts-init.php:123
+msgid "Total"
+msgstr "В загальному"
+
+#: includes/class-charts-shortcode.php:114
+msgid "Progress percent"
+msgstr "Відсоткове значення поступу"
+
+#: includes/class-charts-shortcode.php:133
+#: includes/class-cherry-charts-init.php:48
+#: includes/class-cherry-charts-init.php:50
+#: includes/class-cherry-charts-init.php:51
+msgid "Charts"
+msgstr "Діаграми"
+
+#: includes/class-charts-shortcode.php:140
+msgid "Chart ID"
+msgstr "ID діаграми"
+
+#: includes/class-charts-shortcode.php:141
+msgid "Enter Chart ID to show"
+msgstr "Зазначте ID діаграми, що буде відображатися"
+
+#: includes/class-charts-shortcode.php:145
+msgid "Class"
+msgstr "Клас"
+
+#: includes/class-charts-shortcode.php:146
+msgid "Extra CSS class"
+msgstr "Користувацький клас CSS"
+
+#: includes/class-charts-shortcode.php:178
+msgid "Please, provide correct Chart ID"
+msgstr "Будь ласка, Вкажіть правильний ID діаграми"
+
+#: includes/class-charts-shortcode.php:194
+msgid "Chart does not exist"
+msgstr "Діаграми немає"
+
+#: includes/class-charts-shortcode.php:249
+msgid "Chart data is empty"
+msgstr "Дані діаграми відсутні"
+
+#: includes/class-charts-shortcode.php:396
+msgid "Template file does not exist"
+msgstr "Немає файлу шаблона"
+
+#: includes/class-charts-shortcode.php:472
+#: includes/class-charts-shortcode.php:576
+msgid "No data to show"
+msgstr "Дані для відображення відсутні"
+
+#: includes/class-cherry-charts-init.php:49
+msgid "Chart"
+msgstr "Діаграма"
+
+#: includes/class-cherry-charts-init.php:52
+#: includes/class-cherry-charts-init.php:53
+msgid "Add New Chart"
+msgstr "Створити нову діаграму"
+
+#: includes/class-cherry-charts-init.php:54
+msgid "New Chart"
+msgstr "Нова діаграма"
+
+#: includes/class-cherry-charts-init.php:55
+msgid "Edit Chart"
+msgstr "Редагувати діаграму"
+
+#: includes/class-cherry-charts-init.php:56
+msgid "View Chart"
+msgstr "Переглянути діаграму"
+
+#: includes/class-cherry-charts-init.php:57
+msgid "All Charts"
+msgstr "Всі діаграми"
+
+#: includes/class-cherry-charts-init.php:58
+msgid "Search Charts"
+msgstr "Шукати діаграми"
+
+#: includes/class-cherry-charts-init.php:59
+msgid "Parent Charts:"
+msgstr "Батьківські діаграми:"
+
+#: includes/class-cherry-charts-init.php:60
+msgid "No Charts found."
+msgstr "Діаграм немає."
+
+#: includes/class-cherry-charts-init.php:61
+msgid "No Charts found in Trash."
+msgstr "В кошику діаграм немає."
+
+#: includes/class-cherry-charts-init.php:123
+msgid "Done"
+msgstr "Готово"
+
+#: includes/class-cherry-charts-init.php:124
+msgid "Value"
+msgstr "Значення"

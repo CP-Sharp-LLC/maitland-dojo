@@ -1,0 +1,35 @@
+body {
+	font-size: 16px;
+}
+@import "css-framework/base-first";
+@import "monstroid-mixins";
+@import "logo";
+@import "menu";
+@import "breadcrumbs";
+@import "typography";
+
+//@import url('//fonts.googleapis.com/css?family=Lato:400,900,700,400italic,300,100,700italic,300italic,100italic');
+
+
+/* General
+================================================== */
+.site {
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: keep-all;
+	line-break: loose;
+	-webkit-hyphens: auto; 
+	-moz-hyphens: auto; 
+	hyphens: auto;
+}
+a {
+	@include transition(all 0.3s ease-in-out);
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+/* General */

@@ -1,0 +1,749 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-simple-slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-11 14:40+0200\n"
+"PO-Revision-Date: 2015-12-11 14:40+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-slider-admin.php:114
+#: public/includes/classes/class-cherry-slider-registration.php:121
+msgid "Slider"
+msgstr "Слайдер"
+
+#: admin/includes/class-cherry-slider-admin.php:115
+msgid "Date"
+msgstr "Дата"
+
+#: admin/includes/class-cherry-slider-admin.php:116
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: admin/includes/class-cherry-slider-admin.php:150
+msgid "This slide is not related to any slider"
+msgstr "Цей слайд не використано в жодному з слайдерів"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:59
+msgid "Post format options"
+msgstr "Параметри формату публікації "
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:144
+#: admin/includes/class-cherry-slider-meta-boxes.php:145
+msgid "Content width"
+msgstr "Ширина вмісту."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:151
+#: admin/includes/class-cherry-slider-meta-boxes.php:152
+msgid "Content vertical"
+msgstr "Вертикаль вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:158
+msgid "Content Position"
+msgstr "Розташування вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:159
+msgid "Select content position"
+msgstr "Оберіть розташування для вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:163
+msgid "topLeft position"
+msgstr "Угорі зліва"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:164
+msgid "topCenter position"
+msgstr "Угорі посередині"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:165
+msgid "topRight position"
+msgstr "Угорі справа"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:166
+msgid "bottomLeft position"
+msgstr "Внизу зліва"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:167
+msgid "bottomCenter position"
+msgstr "Внизу посередині"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:168
+msgid "bottomRight position"
+msgstr "Внизу справа"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:169
+msgid "centerLeft position"
+msgstr "Посередині зліва"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:170
+msgid "centerRight position"
+msgstr "Посередині справа"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:171
+msgid "centerCenter position"
+msgstr "Посередині"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:177
+msgid "Content show transition"
+msgstr "Перехід появи вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:178
+msgid ""
+"Sets the transition of the layer when it appears in the slide. Can be set to "
+"left, right, up or down, these values describe the direction in which the "
+"layer will move when it appears."
+msgstr ""
+"Вкажіть перехід для шару, коли він з'являється на слайді. Можна використати "
+"варіанти left, right, up або down, ці значення визначають напрям руху шару "
+"при його появі."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:182
+#: admin/includes/class-cherry-slider-meta-boxes.php:214
+msgid "Left transition"
+msgstr "Перехід вліво"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:183
+#: admin/includes/class-cherry-slider-meta-boxes.php:215
+msgid "Right transition"
+msgstr "Перехід вправо"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:184
+#: admin/includes/class-cherry-slider-meta-boxes.php:216
+msgid "Up transition"
+msgstr "Перехід угору"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:185
+#: admin/includes/class-cherry-slider-meta-boxes.php:217
+msgid "Down transition"
+msgstr "Перехід вниз"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:191
+msgid "Content show duration"
+msgstr "Тривалість появи вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:192
+msgid "Sets the duration of the show transition."
+msgstr "Вкажіть тривалість переходу при появі."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:200
+msgid "Content show delay"
+msgstr "Затримка появи вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:201
+msgid "Sets the delay of the show transition."
+msgstr "Вкажіть тривалість затримки переходу при появі вмісту."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:209
+msgid "Content hide transition"
+msgstr "Перехід зникнення вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:210
+msgid ""
+"Sets the transition of the layer when it disappears from the slide. Can be "
+"set to left, right, up or down, these values describe the direction in which "
+"the layer will move when it disappears."
+msgstr ""
+"Вкажіть перехід для шару, коли він зникає зі слайду. Можна використати "
+"варіанти left, right, up або down, ці значення визначають напрям руху шару "
+"при його зникненні."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:223
+msgid "Content hide duration"
+msgstr "Тривалість зникнення вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:224
+msgid "Sets the duration of the hide transition."
+msgstr "Вкажіть тривалість переходу при зникненні шару."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:232
+msgid "Content hide delay"
+msgstr "Затримка зникнення вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:233
+msgid "Sets the delay of the hide transition."
+msgstr "Вкажіть тривалість затримки переходу при зникненні шару."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:241
+msgid "Content wrapper"
+msgstr "Обгортка вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:242
+msgid "Using content wrapper"
+msgstr "Використати обгортку вмісту"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:245
+#: admin/includes/class-cherry-slider-meta-boxes.php:267
+#: public/includes/classes/class-cherry-slider-options.php:266
+#: public/includes/classes/class-cherry-slider-options.php:276
+#: public/includes/classes/class-cherry-slider-options.php:286
+#: public/includes/classes/class-cherry-slider-options.php:296
+#: public/includes/classes/class-cherry-slider-options.php:306
+#: public/includes/classes/class-cherry-slider-options.php:316
+#: public/includes/classes/class-cherry-slider-options.php:326
+#: public/includes/classes/class-cherry-slider-options.php:336
+#: public/includes/classes/class-cherry-slider-options.php:347
+#: public/includes/classes/class-cherry-slider-options.php:357
+msgid "Yes"
+msgstr "Так"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:246
+#: admin/includes/class-cherry-slider-meta-boxes.php:268
+#: public/includes/classes/class-cherry-slider-options.php:267
+#: public/includes/classes/class-cherry-slider-options.php:277
+#: public/includes/classes/class-cherry-slider-options.php:287
+#: public/includes/classes/class-cherry-slider-options.php:297
+#: public/includes/classes/class-cherry-slider-options.php:307
+#: public/includes/classes/class-cherry-slider-options.php:317
+#: public/includes/classes/class-cherry-slider-options.php:327
+#: public/includes/classes/class-cherry-slider-options.php:337
+#: public/includes/classes/class-cherry-slider-options.php:348
+#: public/includes/classes/class-cherry-slider-options.php:358
+msgid "No"
+msgstr "Ні"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:263
+msgid "Crop image"
+msgstr "Обрізати зображення"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:264
+msgid "Using cropped image"
+msgstr "Використовувати обрізані зображення"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:285
+msgid "Audio source"
+msgstr "Аудіо"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:286
+msgid "Enter audio source( mp3, m4a, ogg, wav, wma )"
+msgstr "Виберіть аудіофайл (mp3, m4a, ogg, wav, wma)"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:305
+msgid "Video type"
+msgstr "Тип відео"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:306
+msgid "Choose video type"
+msgstr "Оберіть тип відео"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:310
+msgid "Embed video type"
+msgstr "Вставлене відео"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:314
+msgid "HTML5 video type"
+msgstr "Відео HTML5"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:322
+msgid "Embed video source"
+msgstr "Вхідний файл вставленого відео"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:323
+msgid "Enter source for embed video"
+msgstr "Вкажіть шлях до вихідного файлу вставленого відео"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:329
+msgid "MP4 video source"
+msgstr "Шлях до відео у форматі mp4"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:330
+msgid "Enter source for MP4 video"
+msgstr "Вкажіть шлях до відео у форматі mp4"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:338
+msgid "OGV video source"
+msgstr "Шлях до відео у форматі ogv"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:339
+msgid "Enter source for OGV video"
+msgstr "Вкажіть шлях до відео у форматі ogv"
+
+#: init/statics/cherry-slider-static.php:49
+#: public/includes/classes/class-cherry-slider-shortcode.php:78
+msgid "Simple Slider"
+msgstr "Простий Слайдер"
+
+#: public/includes/classes/class-cherry-slider-data.php:207
+msgid "Slides not found"
+msgstr "Немає слайдів"
+
+#: public/includes/classes/class-cherry-slider-data.php:326
+msgid "Posts not found"
+msgstr "Публікацій не виявлено"
+
+#: public/includes/classes/class-cherry-slider-options.php:144
+#: public/includes/classes/class-cherry-slider-shortcode.php:85
+msgid "Slider name"
+msgstr "Назва слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:145
+#: public/includes/classes/class-cherry-slider-shortcode.php:86
+msgid "Leave field blank, if you need all of the slides"
+msgstr "Залиште це поле порожнім, якщо хочете, щоб усі слайди відображалися."
+
+#: public/includes/classes/class-cherry-slider-options.php:150
+msgid "Number of slides"
+msgstr "Кількість слайдів"
+
+#: public/includes/classes/class-cherry-slider-options.php:152
+msgid "Indicates number of slides"
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:159
+msgid "Slides order"
+msgstr "Порядок слайдів"
+
+#: public/includes/classes/class-cherry-slider-options.php:160
+msgid ""
+"Designates the ascending or descending order of the \"orderby\" parameter."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:164
+msgid "Ascending order from lowest to highest values"
+msgstr "Висхідний порядок від найменшого до найбільшого значення"
+
+#: public/includes/classes/class-cherry-slider-options.php:165
+msgid "Descending order from highest to lowest values"
+msgstr "Спадний порядок від найбільшого до найменшого значення"
+
+#: public/includes/classes/class-cherry-slider-options.php:170
+#: public/includes/classes/class-cherry-slider-shortcode.php:99
+msgid "Slider width"
+msgstr "Ширина слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:171
+msgid "Sets the width of the slide."
+msgstr "Вкажіть ширину слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:174
+msgid ""
+"Can be set to a fixed value, like 900 (indicating 900 pixels), or to a "
+"percentage value, like '100%'. It's important to note that percentage values "
+"need to be specified inside quotes. For fixed values, the quotes are not "
+"necessary. Also, please note that, in order to make the slider responsive, "
+"it's not necessary to use percentage values."
+msgstr ""
+"Можна використати фіксоване значення, як, наприклад, 900 (мається на увазі "
+"900 пікселів) або відсоткове, як '100%'. Необхідно зазначити, що відсоткове "
+"значення слід подавати в лапках, тоді як для фіксованого значення лапки не "
+"потрібні. Також, будь ласка, майте на увазі, що для правильного відображення "
+"слайдера на приладах з меншим розширенням екрану не обов'язково "
+"використовувати відсоткове значення."
+
+#: public/includes/classes/class-cherry-slider-options.php:180
+#: public/includes/classes/class-cherry-slider-shortcode.php:104
+msgid "Slider height"
+msgstr "Висота слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:181
+#: public/includes/classes/class-cherry-slider-options.php:187
+#: public/includes/classes/class-cherry-slider-options.php:197
+msgid ""
+"Sets specific breakpoints which allow changing the look and behavior of the "
+"slider when the page resizes."
+msgstr ""
+"Встановлює певні \"контрольні точки\", де відбувається зміна вигляду та "
+"поведінки слайдера при зміні розмірів сторінки. "
+
+#: public/includes/classes/class-cherry-slider-options.php:186
+msgid "Slider 992px breakpoint height"
+msgstr "Вкажіть висоту слайдера для контрольної точки 992px"
+
+#: public/includes/classes/class-cherry-slider-options.php:190
+#: public/includes/classes/class-cherry-slider-options.php:200
+msgid ""
+"The 'breakpoints' property is assigned an object which contains certain "
+"browser window widths and the slider properties that are applied to those "
+"specific widths. This is very similar to CSS media queries."
+msgstr ""
+"Поняття 'контрольної точки' визначає об'єкт, що міститься всередині вікна "
+"браузера певної ширини, і параметри слайдера задаються саме для цієї ширини. "
+"Це досить схоже до медіа-запитів CSS."
+
+#: public/includes/classes/class-cherry-slider-options.php:196
+msgid "Slider 768px breakpoint height"
+msgstr "Вкажіть висоту слайдера для контрольної точки 768px"
+
+#: public/includes/classes/class-cherry-slider-options.php:206
+msgid "Slider visible size"
+msgstr "Видимий розмір слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:207
+msgid ""
+"Sets the size of the visible area, allowing for more slides to become "
+"visible near the selected slide."
+msgstr ""
+"Визначає розмір видимої області, так можна задати відображення більшої "
+"кількості слайдів водночас - біля обраного слайду."
+
+#: public/includes/classes/class-cherry-slider-options.php:212
+msgid "Slider forceSize"
+msgstr "forceSize слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:213
+msgid ""
+"Indicates if the size of the slider will be forced to full width or full "
+"window."
+msgstr ""
+"Визначає тип ширина слайдера - на всю ширину вмісту чи всю ширину вікна."
+
+#: public/includes/classes/class-cherry-slider-options.php:216
+msgid ""
+"Note: It's possible to make the slider full width or full window by giving "
+"it width and/or height of '100%'. However, sometimes the slider might be "
+"inside other containers which are less than full width/window. The "
+"'forceSize' property is useful in those situations because it will still "
+"enlarge the slider to fill the width or window by overflowing its parent "
+"elements."
+msgstr ""
+"Увага! Розміри слайдера для ширини за вмістом чи за шириною вікна можна "
+"змінити, використавши параметр ширини та/або висоти '100%'. Однак, іноді "
+"слайдер міститься всередині зовнішніх контейнерів, ширина яких менша за "
+"100%. Параметр forceSize в такому випадку все одно працюватиме з бажаним "
+"ефектом і слайдер буде відображатися на всю ширину вмісту чи вікна, нехтуючи "
+"розмірами батьківського контейнера."
+
+#: public/includes/classes/class-cherry-slider-options.php:221
+#: public/includes/classes/class-cherry-slider-options.php:399
+msgid "None"
+msgstr "Немає"
+
+#: public/includes/classes/class-cherry-slider-options.php:222
+msgid "fullWindow"
+msgstr "На всю ширину вікна"
+
+#: public/includes/classes/class-cherry-slider-options.php:223
+msgid "fullWidth"
+msgstr "На всю ширину вмісту"
+
+#: public/includes/classes/class-cherry-slider-options.php:228
+#: public/includes/classes/class-cherry-slider-shortcode.php:114
+msgid "Slider orientation"
+msgstr "Орієнтація слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:229
+msgid ""
+"Indicates whether the slides will be arranged horizontally or vertically."
+msgstr "Визначає орієнтацію слайдів - горизонтальну/вертикальну."
+
+#: public/includes/classes/class-cherry-slider-options.php:235
+#: public/includes/classes/class-cherry-slider-shortcode.php:110
+msgid "Horizontal"
+msgstr "Горизонтальний"
+
+#: public/includes/classes/class-cherry-slider-options.php:238
+#: public/includes/classes/class-cherry-slider-shortcode.php:111
+msgid "Vertical"
+msgstr "Вертикальний"
+
+#: public/includes/classes/class-cherry-slider-options.php:244
+#: public/includes/classes/class-cherry-slider-shortcode.php:123
+msgid "Slide distance"
+msgstr "Відстань між слайдами"
+
+#: public/includes/classes/class-cherry-slider-options.php:246
+msgid "Sets the distance between the slides."
+msgstr "Встановлює відступ між слайдами"
+
+#: public/includes/classes/class-cherry-slider-options.php:253
+msgid "Slide animation duration"
+msgstr "Тривалість гортання слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:255
+msgid "Sets the duration of the slide animation."
+msgstr "Вказує на тривалість гортання слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:262
+msgid "Slide fading"
+msgstr "Поступове зникання слайдів"
+
+#: public/includes/classes/class-cherry-slider-options.php:263
+msgid "Indicates if fade will be used."
+msgstr "Визначає, чи застосовувати поступове зникання."
+
+#: public/includes/classes/class-cherry-slider-options.php:272
+#: public/includes/classes/class-cherry-slider-shortcode.php:129
+msgid "Slider navigation"
+msgstr "Навігація між слайдами"
+
+#: public/includes/classes/class-cherry-slider-options.php:273
+msgid "Indicates whether the arrow buttons will be created."
+msgstr "Визначає, чи додавати стрілки"
+
+#: public/includes/classes/class-cherry-slider-options.php:282
+msgid "Slider fade navigation"
+msgstr "Зникання навігації"
+
+#: public/includes/classes/class-cherry-slider-options.php:283
+msgid "Indicates whether the arrows will fade in only on hover."
+msgstr "Визначає, чи зникатимуть стрілки тільки при наведенні вказівника миші."
+
+#: public/includes/classes/class-cherry-slider-options.php:292
+#: public/includes/classes/class-cherry-slider-shortcode.php:135
+msgid "Slider pagination"
+msgstr "Нумерація слайдів"
+
+#: public/includes/classes/class-cherry-slider-options.php:293
+msgid "Indicates whether the buttons will be created."
+msgstr "Визначає, чи додавати кнопки"
+
+#: public/includes/classes/class-cherry-slider-options.php:302
+#: public/includes/classes/class-cherry-slider-shortcode.php:141
+msgid "Slider autoplay"
+msgstr "Автозапуск слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:303
+msgid "Indicates whether or not autoplay will be enabled."
+msgstr "Визначає, чи починати зміну слайдів автоматично"
+
+#: public/includes/classes/class-cherry-slider-options.php:312
+#: public/includes/classes/class-cherry-slider-shortcode.php:147
+msgid "Slider fullScreen"
+msgstr "Повноекранний режим"
+
+#: public/includes/classes/class-cherry-slider-options.php:313
+msgid "Indicates whether the full-screen button is enabled."
+msgstr "Визначає, чи відображатиметься кнопка переходу в повноекранний режим."
+
+#: public/includes/classes/class-cherry-slider-options.php:322
+msgid "Slider shuffle"
+msgstr "Перемішування слайдів"
+
+#: public/includes/classes/class-cherry-slider-options.php:323
+msgid "Indicates if the slides will be shuffled."
+msgstr "Визначає, чи перемішувати слайди"
+
+#: public/includes/classes/class-cherry-slider-options.php:332
+msgid "Slider loop"
+msgstr "Режим циклу слайдера"
+
+#: public/includes/classes/class-cherry-slider-options.php:333
+msgid "Indicates if the slider will be loopable (infinite scrolling)."
+msgstr "Визначає, чи працюватиме слайдер циклічно (безперервна зміна слайдів)."
+
+#: public/includes/classes/class-cherry-slider-options.php:343
+msgid "Thumbnails"
+msgstr "Мініатюри"
+
+#: public/includes/classes/class-cherry-slider-options.php:344
+msgid "Show thumbnails"
+msgstr "Відображати мініатюри"
+
+#: public/includes/classes/class-cherry-slider-options.php:353
+msgid "Thumbnail arrows"
+msgstr "Стрілки навігації для мініатюр"
+
+#: public/includes/classes/class-cherry-slider-options.php:354
+msgid "Indicates whether the thumbnail arrows will be enabled"
+msgstr "Визначає, чи відображати стрілки навігації для мініатюр"
+
+#: public/includes/classes/class-cherry-slider-options.php:363
+msgid "Thumbnails Position"
+msgstr "Розташування мініатюр"
+
+#: public/includes/classes/class-cherry-slider-options.php:364
+msgid "Sets the position of the thumbnail scroller"
+msgstr "Оберіть розташування прокрутки мініатюр"
+
+#: public/includes/classes/class-cherry-slider-options.php:368
+msgid "Top position"
+msgstr "Угорі"
+
+#: public/includes/classes/class-cherry-slider-options.php:369
+msgid "Bottom position"
+msgstr "Внизу"
+
+#: public/includes/classes/class-cherry-slider-options.php:370
+msgid "Right position"
+msgstr "Справа"
+
+#: public/includes/classes/class-cherry-slider-options.php:371
+msgid "Left position"
+msgstr "Зліва"
+
+#: public/includes/classes/class-cherry-slider-options.php:376
+msgid "Thumbnail width"
+msgstr "Ширина мініатюри"
+
+#: public/includes/classes/class-cherry-slider-options.php:378
+msgid "Sets the width of the thumbnail."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:385
+msgid "Thumbnail height"
+msgstr "Висота мініатюри"
+
+#: public/includes/classes/class-cherry-slider-options.php:387
+msgid "Sets the height of the thumbnail."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:394
+msgid "Reach video action"
+msgstr "Подія вибраного відео"
+
+#: public/includes/classes/class-cherry-slider-options.php:395
+msgid ""
+"Sets the action that the video will perform when its slide container is "
+"selected."
+msgstr "Визначає поведінку відео при виборі слайда, де воно міститься."
+
+#: public/includes/classes/class-cherry-slider-options.php:400
+msgid "PlayVideo"
+msgstr "Відігравати відео"
+
+#: public/includes/classes/class-cherry-slider-options.php:404
+msgid "Cherry Slider"
+msgstr "Слайдер Cherry"
+
+#: public/includes/classes/class-cherry-slider-registration.php:52
+#: public/includes/classes/class-cherry-slider-registration.php:53
+msgid "Slides list"
+msgstr "Список слайдів"
+
+#: public/includes/classes/class-cherry-slider-registration.php:54
+#: public/includes/classes/class-cherry-slider-registration.php:55
+msgid "Add new slide"
+msgstr "Створити новий слайд"
+
+#: public/includes/classes/class-cherry-slider-registration.php:56
+msgid "Edit Slider Item"
+msgstr "Редагувати слайд"
+
+#: public/includes/classes/class-cherry-slider-registration.php:57
+msgid "New Slider Item"
+msgstr "Новий слайд"
+
+#: public/includes/classes/class-cherry-slider-registration.php:58
+msgid "View Slider Item"
+msgstr "Переглянути слайд"
+
+#: public/includes/classes/class-cherry-slider-registration.php:59
+msgid "Search Slider Items"
+msgstr "Шукати слайди"
+
+#: public/includes/classes/class-cherry-slider-registration.php:60
+msgid "No Slider Items found"
+msgstr "Слайдів немає"
+
+#: public/includes/classes/class-cherry-slider-registration.php:61
+msgid "No Slider Items found in trash"
+msgstr "В кошику слайдів теж немає."
+
+#: public/includes/classes/class-cherry-slider-registration.php:120
+#: public/includes/classes/class-cherry-slider-registration.php:125
+msgid "Sliders"
+msgstr "Слайдери"
+
+#: public/includes/classes/class-cherry-slider-registration.php:122
+#: public/includes/classes/class-cherry-slider-registration.php:124
+msgid "All Sliders"
+msgstr "Всі слайдери"
+
+#: public/includes/classes/class-cherry-slider-registration.php:123
+msgid "Add New Slider"
+msgstr "Створити новий слайдер"
+
+#: public/includes/classes/class-cherry-slider-registration.php:126
+msgid "Update Slider"
+msgstr "Оновити слайдер"
+
+#: public/includes/classes/class-cherry-slider-registration.php:127
+msgid "New Slider Name"
+msgstr "Назва нового слайдера"
+
+#: public/includes/classes/class-cherry-slider-registration.php:128
+msgid "Search Sliders"
+msgstr "Шукати слайдери"
+
+#: public/includes/classes/class-cherry-slider-registration.php:129
+msgid "Parent Slider"
+msgstr "Батьківський слайдер"
+
+#: public/includes/classes/class-cherry-slider-registration.php:130
+msgid "Parent Slider:"
+msgstr "Батьківський слайдер:"
+
+#: public/includes/classes/class-cherry-slider-registration.php:131
+msgid "Edit Slider:"
+msgstr "Редагувати слайдер"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:94
+msgid "Post per page"
+msgstr "Кількість публікацій на сторінці"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:95
+msgid ""
+"Specify number of posts that you want to show. Enter -1 to get all posts"
+msgstr ""
+"Вкажіть кількість публікацій, що відображатиметься на сторінці. Для "
+"відображення всіх публікацій використовуйте значення \"-1\""
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:100
+msgid "Sets the width of the slider"
+msgstr "Вкажіть ширину слайдера"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:105
+msgid "Sets the height of the slider"
+msgstr "Вкажіть висоту слайдера"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:115
+msgid ""
+"Indicates whether the slides will be arranged horizontally or vertically"
+msgstr "Визначає орієнтацію слайдів - горизонтальну/вертикальну."
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:124
+msgid "Sets the distance between the slides"
+msgstr "Встановлює відступ між слайдами"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:130
+msgid "Indicates whether the arrow buttons will be created"
+msgstr "Визначає, чи додавати стрілки"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:136
+msgid "Indicates whether the pagination will be created"
+msgstr "Визначає, чи додавати кнопки пагінації"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:142
+msgid "Indicates whether or not autoplay will be enabled"
+msgstr "Визначає, чи починати зміну слайдів автоматично"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:148
+msgid "Indicates whether the full-screen button is enabled"
+msgstr "Визначає, чи відображатиметься кнопка переходу в повноекранний режим."
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:152
+msgid "Class"
+msgstr "Клас"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:153
+msgid "Extra CSS class"
+msgstr "Користувацький клас CSS"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid ""
+#~ "Designates the ascending or descending order of the 'orderby' parameter."
+#~ msgstr ""
+#~ "Вказує на висхідний чи спадний порядок параметра  "
+#~ "'orderby' ('упорядкувати за')."
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "horizontal"
+#~ msgstr "Горизонтальна"
+
+#~ msgid "vertical"
+#~ msgstr "Вертикальна"

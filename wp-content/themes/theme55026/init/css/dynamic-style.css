@@ -1,0 +1,597 @@
+/*<<<<<<<< Header >>>>>>>>>>>*/
+
+
+/* header logo */
+.static-header-logo{
+    
+}
+/* end header logo */
+
+/**
+** Menu header 
+********************/
+
+/* menu stickup */
+.isStick{
+    background: $body-background[color];
+}
+
+/* theme menu colors */
+#menu-primary #menu-primary-items > li:nth-child(1) a:before{
+    background: $theme-color-1;
+    }
+    
+#menu-primary #menu-primary-items > li:nth-child(2) a:before{
+    background: $theme-color-2;
+    }
+    
+#menu-primary #menu-primary-items > li:nth-child(3) a:before{
+    background: $theme-color-3;
+    }
+    
+#menu-primary #menu-primary-items > li:nth-child(4) a:before{
+    background: $theme-color-4;
+    }
+    
+#menu-primary #menu-primary-items > li:nth-child(5) a:before{
+    background: $theme-color-5;
+    }
+    
+#menu-primary #menu-primary-items > li a:before{
+    background: $color-link;
+}
+    
+/* .menu-primary_trigger */
+.menu-primary_trigger{
+    background: $color-primary;
+    color: $color-secondary;
+}
+
+.menu-primary_trigger:hover{
+    color: $color-primary;
+    background:  $color-secondary;
+}
+    
+/*submenu*/
+#menu-primary .sub-menu, #menu-primary .simple-sub{
+    background: $theme-color-2;
+}
+
+#menu-primary .sub-menu li a, #menu-primary .simple-sub li a{
+    color: $color-secondary;
+}
+
+#menu-primary .sub-menu li a:hover, #menu-primary .simple-sub li a:hover{
+    color: $color-primary;
+}
+
+/* header showcase */
+.header_showcase strong{
+    color: $color-primary;
+}
+.header_showcase em{
+    color: $theme-color-1;
+}
+
+
+/* megamenu */
+#menu-primary .cherry-mega-menu-sub.mega-sub{
+    background: $theme-color-1;
+}
+
+#menu-primary .cherry-mega-menu-sub.mega-sub a{
+        color: $color-secondary;
+}
+
+#menu-primary .cherry-mega-menu-sub.mega-sub a:hover{
+        color: $color-primary;
+}
+/* end menu header */
+
+/********** Header End *********/
+
+
+/***********  Content **************/
+
+
+/* 404 */
+.error-404-num{
+    color: $theme-color-4;
+}
+
+/* faqs */
+/* spoiler */
+.cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title:hover{
+    color: $color-link;
+}
+
+/* portfolio */
+
+
+/* loader */
+.cherry-portfolio-ajax-loader .cherry-spinner .cherry-double-bounce1 {
+    background: $color-link;
+}
+
+.cherry-portfolio-ajax-loader .cherry-spinner .cherry-double-bounce2 {
+    background: $color-link;
+}
+
+/* filter/filter tag */
+.portfolio-wrap .portfolio-filter .filter.filter-category li a, .portfolio-wrap .portfolio-filter .filter.filter-tag li a{
+   color: $color-primary;
+}
+.portfolio-wrap .portfolio-filter .filter.filter-category li a:hover, .portfolio-wrap .portfolio-filter .filter.filter-category li.active a, .portfolio-wrap .portfolio-filter .filter.filter-tag li a:hover, .portfolio-wrap .portfolio-filter .filter.filter-tag li.active a{
+   color: $color-secondary;
+   background: $color-link;
+}
+/* order filter */
+ul.order-filter > li span.marker {
+    border-color: $color-link transparent transparent transparent;
+}
+
+.portfolio-wrap .portfolio-filter .order-filter > li ul{
+    background-color: $color-gray-variations;
+}
+
+.order-filter > li:hover{
+    color: $color-link;
+}
+.order-filter > li ul > li{
+    color: $color-primary;
+    text-decoration: none;
+}
+
+.order-filter > li ul > li:hover{
+    color: $color-link;
+}
+
+/* portfolio content */
+div.portfolio-wrap div.portfolio-item .inner-wrap .item-content{
+    background-color: $color-gray-variations;
+}
+
+div.portfolio-wrap .list-layout .portfolio-item .inner-wrap .item-content{
+    padding: 0;
+    background-color: transparent;
+}
+
+/* portfolio pagin */
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a, .portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a{    
+    color: $color-primary;
+    background: $color-gray-variations;    
+}
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li.active a,
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a:hover,
+.portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a:hover{    
+    color: $body-background[color];
+    background: $color-link;
+}
+
+/* portf ajax button */
+.portfolio-ajax-button .load-more-button a{
+    background: $color-link;
+}
+.portfolio-ajax-button .load-more-button a:hover{
+    background: $color-primary;
+}
+
+/* portfolio content */
+div.portfolio-wrap div.portfolio-item .inner-wrap .item-content p{
+    color: $typography-body[color]; 
+}
+
+/* portfolio single post */
+.single-portfolio article.type-portfolio .cherry-portfolio-single-post a:hover{
+    color: $theme-color-4;
+}
+
+/* link on image */
+
+div.portfolio-wrap div.portfolio-item .inner-wrap .rollover-content{
+    background: rgba(255,255,255, 0.6);  
+}
+
+div.portfolio-wrap .grid-layout div.portfolio-item .inner-wrap .rollover-content, div.portfolio-wrap .justified-layout div.portfolio-item .inner-wrap .rollover-content{
+    background: rgba(255,255,255, 0.8);  
+}
+
+div.portfolio-wrap div.portfolio-item .inner-wrap .links-container .item-link{
+    border-color: $color-gray-variations;  
+    background: $color-gray-variations;    
+    color: $color-link;
+}
+div.portfolio-wrap div.portfolio-item .inner-wrap .links-container .item-link:hover{
+    border-color: $color-link;  
+    color: $color-secondary;
+    background: $color-link;
+}
+
+/* end portfolio */
+
+.cherry-grid_service_feature{
+   color: $color-secondary;
+}
+
+.cherry-grid.extragrid_2 .cherry-grid_item .cherry-grid_title a{
+    color:  $color-secondary;
+}
+
+.team-wrap.extrateam_1 .cherry-team_excerpt{
+    color: $typography-body[color];
+}
+
+.cherry-box.extrabox_1.boxstyle1_3 h3{
+   color: $color-secondary;
+}
+
+/* breadcrumbs */
+
+.site-content:before {
+    background: $body-background[color] !important;
+}
+
+.btn.btn-default{
+   background: $color-link;
+   color: $color-secondary;
+}
+
+.cherry-btn.cherry-btn-primary:hover{
+   background: $color-primary !important;
+}
+
+.cherry-breadcrumbs{
+    background: transparent;
+}
+
+
+
+.cherry-breadcrumbs .cherry-breadcrumbs_content{
+    border-top: 3px solid #d3dce1;
+    border-bottom: 3px solid #d3dce1;
+}
+
+
+.cherry-breadcrumbs_item_target{
+    color: $typography-body[color];
+}
+
+
+.cherry-grid.extragrid_1 .cherry-grid_item .btn.btn-default{
+   color: $color-secondary;
+}
+
+.cherry-posts-list.posts_1 .post-meta{
+    color: $color-link;
+}
+
+.cherry-posts-list.posts_1 .descr > a{
+    color: $color-primary;
+}
+.cherry-posts-list.posts_1 .descr > a:hover{
+    color: $color-link;
+}
+
+
+.cherry-posts-list.posts_1 .inner{
+    background-color: $color-gray-variations;
+}
+
+
+.cherry-box.extrabox_5 h3 a{
+    color: $color-secondary;
+}
+
+.cherry-box.extrabox_4 .box-primary.inner:hover .cherry-dropcap{
+    background-color: $color-secondary !important;     
+}
+.cherry-box.extrabox_4 .box-primary.inner:hover .cherry-dropcap span{
+    color: $color-primary !important;    
+    font-size: 65px !important;
+}
+
+.cherry-box.extrabox_4 .box-primary.inner:hover{
+    background: @lighten( $color-primary, 25% ) !important;  
+}
+
+.cherry-box.extrabox_4 h3 a{
+    color: $color-secondary;
+}
+
+.cherry-box.extrabox_3 .box-primary p{
+    color: $typography-body[color];
+}
+
+.extrabox_1 h2{
+    color: $color-secondary;
+}
+
+.extrabox_2 p{
+    color: $color-primary;
+}
+
+
+
+.cherry-box.extrabox_1.boxstyle1_1 .inner:hover{
+    background: @lighten( $color-primary, 25% ) !important;
+}
+
+/********** Content End *********/
+
+
+/* posts */
+
+.navigation.pagination{
+}
+
+.page-numbers{
+    background: $color-gray-variations;
+}
+.page-numbers:hover{
+    color: $color-secondary;
+    background: $color-link;
+}
+.page-numbers.current{
+    color: $color-secondary;
+    background: $color-link;
+    text-decoration: underline;
+}
+
+
+.author.vcard a{
+    color: $color-secondary;
+}
+
+.cherry-has-entry-date .entry-meta-top, .cherry-has-entry-author .entry-meta-top, .cherry-has-entry-comments .entry-meta-top{
+    background: $theme-color-3;
+    color: $color-secondary;
+}
+
+.post.type-post .entry-content{
+    background: $theme-color-4;
+    color: $color-secondary;
+}
+.post.type-post .entry-content h3{
+    color: $color-secondary;
+}
+
+.post.type-post .entry-meta-top, .post.type-post .entry-meta-bottom{
+    background: $theme-color-3;
+}
+
+.post.type-post .entry-meta{
+    color: $color-secondary;
+}
+.post.type-post .entry-meta span:before{
+    color: $color-secondary;
+}
+.post.type-post .entry-meta span a{
+    color: $color-secondary;
+}
+.post.type-post .entry-meta span a:hover{
+    color: $color-primary;
+}
+
+.navigation.post-navigation{
+    background: $color-gray-variations;
+}
+
+.author-bio{
+    background: $theme-color-2;
+    color: $color-secondary;
+}
+.author-bio h3{
+    color: $color-secondary;
+}
+.author-bio h3 a{
+    color: $color-secondary;
+}
+
+.author-bio h3 a:hover{
+    color: $color-primary;
+}
+
+.related-posts{
+    background: $theme-color-3;
+    color: $color-secondary;
+}
+.related-posts .related-posts_title{
+    color: $color-secondary;
+    margin: 0;
+}
+
+.related-posts .entry-title a{
+    color: $color-secondary;
+}
+.related-posts .entry-title a:hover{
+    color: $color-primary;
+}
+
+.related-posts h3, .comments-area .comments h3{
+    color: $color-primary;
+}
+
+.comments-area .comments .comments-title{
+    background: $color-gray-variations;
+}
+
+.comments-area .comments .comment-list{
+    background: $color-gray-variations;
+}
+
+ol.comment-list li .comment-body{
+    background: $color-gray-variations;
+}
+
+.comments-area .comments .comment-body .comment-meta .fn, .comments-area .comments .comment-body .comment-meta .says{
+    color:  $color-link;
+}
+
+.comments-area .comments .comment-body .reply a{    
+     color:  $color-secondary;
+     background:  $color-link;   
+}
+
+
+.comments-area .comments .comment-body .reply a:hover{    
+     color:  $color-secondary;
+     background:  $color-primary;   
+}
+
+.comments-area .comments #respond #commentform input[type="text"], .comments-area .comments #respond #commentform input[type="email"], .comments-area .comments #respond #commentform input[type="url"], .comments-area .comments #respond #commentform textarea, .wpcf7 form input[type="text"], .wpcf7 form input[type="email"], .wpcf7 form textarea{
+    border: 1px solid $color-gray-variations;
+    font-family: 'Open Sans', sans-serif;
+    background:  $color-secondary; 
+}
+.comments-area .comments #respond #commentform input[type="text"]:focus ,.comments-area .comments #respond #commentform textarea:focus, .comments-area .comments #respond #commentform input[type="email"]:focus, .comments-area .comments #respond #commentform input[type="url"]:focus, .wpcf7 form textarea:focus{
+    border: 1px solid $color-secondary;
+    outline: none !important;
+    background:  $color-secondary; 
+}
+
+
+.comments-area .comments #respond #commentform textarea{
+    color:  $typography-body[color];
+}
+/* respond */
+.comments-area .comments #respond{
+    background: $theme-color-1;
+}
+.comments-area .comments #respond p, .comments-area .comments #respond p a{
+    color: $color-secondary;
+}
+.comments-area .comments #respond p a:hover{
+    color: $color-primary;
+}
+
+
+.comments-area .comments #respond h3, .comments-area .comments #respond .comment-notes{
+    color: $color-secondary;
+}
+
+.comments-area .comments #respond .form-submit input[type="submit"], .comments-area .comments #respond .form-submit input[type="reset"]{
+    background: $theme-color-3;
+    color:  $color-secondary; 
+}
+
+.comments-area .comments #respond .form-submit input[type="submit"], .comments-area .comments #respond .form-submit input[type="reset"],
+.wpcf7 form .submit-wrap input[type="submit"], .wpcf7 form .submit-wrap input[type="reset"]{
+    color: $color-secondary;
+    background: $theme-color-3;
+}
+.comments-area .comments #respond .form-submit input[type="submit"]:hover, .comments-area .comments #respond .form-submit input[type="reset"]:hover,
+.wpcf7 form .submit-wrap input[type="submit"]:hover, .wpcf7 form .submit-wrap input[type="reset"]:hover{
+    color: $color-secondary;
+    background: $color-primary;
+}
+
+
+/* end posts */
+
+
+.cherry-box.extrabox_6 .inner:hover{
+    background: @lighten( $color-primary, 25% ) !important;
+}
+
+.cherry-box.extrabox_6 .inner, .cherry-box.extrabox_6 .inner h2 a, .cherry-box.extrabox_6 .inner h3{
+    color:  $color-secondary;
+}
+
+.cherry-btn.extracheckbutton span{
+    color:  $color-secondary;
+}
+
+.cherry-btn.extracheckbutton:hover span{
+    opacity: 0.6;
+}
+
+/* widgets */
+.widget_categories, .widget_archive, .widget_recent_entries{
+    background: $theme-color-1;
+}
+.widget_categories h3, .widget_archive h3, .widget_recent_entries h3{
+    color:  $color-secondary;
+}
+.widget-area .widget_categories ul li a, .widget-area .widget_archive ul li a, .widget-area .widget_recent_entries ul li a, .widget .widget_categories ul li a, .widget .widget_archive ul li a, .widget .widget_recent_entries ul li a{
+    color:  $color-secondary;
+}
+
+.widget-area .widget_categories ul li a:hover, .widget-area .widget_archive ul li a:hover, .widget-area .widget_recent_entries ul li a:hover, .widget .widget_categories ul li a:hover, .widget .widget_archive ul li a:hover, .widget .widget_recent_entries ul li a:hover{
+   opacity: 0.5;
+}
+
+/* widget folow */
+.widget-area .cherry-social-follow-class .cherry-follow_label, .widget .cherry-social-follow-class .cherry-follow_label{
+    color:  $color-link !important;
+}
+
+/* search form */
+.search-form input[type="search"], .widget-area #mc4wp-form-1 input[type="email"], .widget #mc4wp-form-1 input[type="email"]{
+    outline: none;
+    background: $color-gray-variations !important;
+}
+
+.search-form input[type="search"]:focus ,.widget-area #mc4wp-form-1 input[type="email"]:focus, .widget #mc4wp-form-1 input[type="email"]:focus{
+    outline: none;
+    background: $color-gray-variations !important;
+
+}
+
+.search-form input[type="submit"], .widget-area #mc4wp-form-1 input[type="submit"], .widget #mc4wp-form-1 input[type="submit"]{
+    color: $color-secondary !important;
+    background: $color-link !important;
+}
+
+.search-form input[type="submit"]:hover, .widget-area #mc4wp-form-1 input[type="submit"]:hover, .widget #mc4wp-form-1 input[type="submit"]:hover{
+    background: $color-primary !important;
+}
+
+
+/* pages widget */
+.widget.widget_pages li.page_item.current_page_item > a{
+    color: $color-primary;
+}
+
+/* menu widgets */
+.widget-area .menu li.current_page_item > a, .widget .menu li.current_page_item > a{
+    color: $color-primary;
+}
+
+/* calendar */
+
+#wp-calendar caption{
+    color: $color-link; 
+}
+
+#wp-calendar thead{
+    background: $color-gray-variations;
+}
+
+#wp-calendar #today{
+    background: $color-gray-variations;
+    color: $color-link; 
+}
+
+/***** footer *****/
+
+.menu-secondary li.current_page_item > a, .menu-secondary li.current-menu-item > a, .menu-secondary li.current_page_ancestor > a{
+    color: $color-primary;
+}
+#footer .static-footer-menu nav ul li a:hover{
+    color: $color-primary;
+}
+
+#footer .cherry-follow_wrap i, #footer .cherry-follow_wrap .cherry-follow_label{
+    color: #c9d3d9;
+}
+.cherry-follow_link:hover i, .cherry-follow_link .cherry-follow_label{
+    color:  $color-link !important;
+}
+
+#footer .textwidget{
+    color: $color-link;
+}
+
+.site-info{
+    color: $color-link;
+}

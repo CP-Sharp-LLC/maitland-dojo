@@ -1,0 +1,7 @@
+/.idea
+package.json
+Gruntfile.js
+node_modules
+tmp
+*.cfg
+*.bak

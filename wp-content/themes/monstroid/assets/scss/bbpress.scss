@@ -1,0 +1,76 @@
+#bbpress-forums {
+	font-size: 16px;
+
+	ul.bbp-lead-topic,
+	ul.bbp-topics,
+	ul.bbp-forums,
+	ul.bbp-replies,
+	ul.bbp-search-results,
+	div.bbp-breadcrumb,
+	div.bbp-topic-tags,
+	div.bbp-the-content-wrapper textarea.bbp-the-content,
+	div.bbp-the-content-wrapper input,
+	#bbp-your-profile fieldset span.description,
+	div.bbp-template-notice p,
+	div.bbp-reply-author .bbp-author-role {
+		font-size: 16px;
+	}
+
+	.bbp-forums-list li,
+	div.bbp-forum-author .bbp-author-role,
+	div.bbp-topic-author .bbp-author-role,
+	div.bbp-reply-author .bbp-author-rol,
+	span.bbp-author-ip,
+	.bbp-forum-info .bbp-forum-content,
+	p.bbp-topic-meta,
+	.bbp-topic-content ul.bbp-topic-revision-log,
+	.bbp-reply-content ul.bbp-topic-revision-log,
+	.bbp-reply-content ul.bbp-reply-revision-log,
+	div.row-actions,
+	div.bbp-search-form input,
+	div.bbp-search-form button {
+		font-size: 14px;
+	}
+
+	p.bbp-topic-meta img.avatar,
+	ul.bbp-reply-revision-log img.avatar,
+	ul.bbp-topic-revision-log img.avatar,
+	div.bbp-template-notice img.avatar,
+	.widget_display_topics img.avatar,
+	.widget_display_replies img.avatar {
+		margin-bottom: 3px;
+	}
+
+	label {
+		font-size: 13px;
+	}
+
+	.bbp-search-form {
+		margin-bottom: 25px;
+	}
+
+	input[type="text"] {
+		padding: 14px 20px;
+		margin-right: 7px;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 1.3;
+		height: auto;
+	}
+
+	fieldset.bbp-form input[type="checkbox"] {
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+
+	#bbp-user-wrapper h2.entry-title {
+		line-height: 1.3;
+		padding-bottom: 25px;
+	}
+}
+
+.bbpress {
+	.entry-title {
+		margin-bottom: 1em;
+	}
+}

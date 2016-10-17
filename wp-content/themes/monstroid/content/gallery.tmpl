@@ -1,0 +1,20 @@
+%%GALLERY where="loop"%%
+<div class="entry-icon fa fa-image"></div>
+%%TITLE%%
+
+<div class="entry-meta">
+	%%DATE%%
+	%%AUTHOR before="<?php _e( 'by ', 'monstroid' ); ?>"%%
+	%%COMMENTS%%
+	%%TAXONOMY name="category"%%
+	<span>%%LIKES%%</span>
+</div>
+<?php if ( ! get_post_gallery() ) { ?>
+	%%GALLERY where="single"%%
+<?php } ?>
+
+%%CONTENT%%
+%%BUTTON class="cherry-btn cherry-btn-primary-light cherry-btn-small cherry-btn-inline cherry-btn-fade"%%
+<div class="cherry-share_wrap only-logos">
+	%%SHARE where="single"%%
+</div>

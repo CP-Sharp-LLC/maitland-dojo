@@ -1,0 +1,165 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TODO 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2015-06-22 10:26+0200\n"
+"PO-Revision-Date: 2015-06-22 10:26+0200\n"
+"Last-Translator: FULL NAME <email@example.com>\n"
+"Language-Team: LANGUAGE <translations@example.com >\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/admin/class-cherry-grid-metabox.php:60
+msgid "Grid Options"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:68
+msgid "Width"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:82
+msgid "Show with image"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:87
+msgid "Yes"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:88
+msgid "No"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:94
+msgid "Excerpt length"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:102
+msgid "Item background color"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:109
+msgid "Item text color"
+msgstr ""
+
+#: ../includes/admin/class-cherry-grid-metabox.php:116
+msgid "CSS class for post item"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:63
+#: ../includes/class-cherry-grid-shortcode.php:399
+msgid "Read More"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:98
+msgid "There are no posts found"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:117
+msgid "Template file not exists"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:334
+msgid "Grid"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:341
+msgid "Number posts"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:342
+msgid "Set number posts to show"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:347
+msgid "Post type"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:348
+msgid "Select post type to get posts from"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:354
+msgid "Grid layout"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:355
+msgid "Select grid layout type"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:357
+msgid "Rows"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:358
+msgid "Columns"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:359
+msgid "Masonry"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:368
+msgid "Gutter Width"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:369
+msgid "Set gutter width (in px)"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:377
+msgid "Columns number"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:378
+msgid "Set columns number (has effect only for columns layout type)"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:386
+msgid "Initial item width"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:387
+msgid "Set initial item width"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:395
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:396
+msgid "Set post thumbnail size to show"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:400
+msgid "Read more button text"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:401
+msgid "Enter text for read more button"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:405
+msgid "Custom CSS class"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:406
+msgid "Enter custom CSS class name"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:414
+msgid "Template"
+msgstr ""
+
+#: ../includes/class-cherry-grid-shortcode.php:415
+msgid "Shortcode template"
+msgstr ""

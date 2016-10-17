@@ -1,0 +1,145 @@
+$lato: 			'Lato', sans-serif;
+$fontawesome: 	'FontAwesome';
+
+$baseOrange: 		#fbb44c;
+$baseBlue: 			#3a98d8;
+$baseGreen:			#2abb9b;
+$basePink: 			#fc797a;
+$baseYellow: 		#feea3a;
+$baseLightGreen: 	#34d7b3;
+$baseRed: 			#ff4c2f;
+$baseDarkBlue: 		#3271e3;
+$baseLightBlue: 	#4eb7fe;
+$baseDark: 			#333333;
+$baseWhite:			#ffffff;
+
+.mpsl-header-dark, 
+.mpsl-header-white {
+	&:not([class*="mpsl-preset"]) {
+		font-size: 86px;
+		line-height: 100px;
+		font-weight: normal;
+	}
+}
+.mpsl-sub-header-dark, 
+.mpsl-sub-header-white {
+	&:not([class*="mpsl-preset"]) {
+		font-size: 45px;
+		line-height: 62px;
+		font-weight: normal;
+	}
+}
+.mpsl-text-dark, 
+.mpsl-text-white {
+	&:not([class*="mpsl-preset"]) {
+		text-shadow: none;
+		font-size: 34px;
+		line-height: 50px;
+		font-weight: normal;
+	}
+}
+.mpsl-header-dark,
+.mpsl-sub-header-dark,
+.mpsl-text-dark {
+	&:not([class*="mpsl-preset"]) {
+		color: $baseDark;
+
+		&.in-box {
+			background: $baseWhite;
+		}
+	}
+}
+.mpsl-header-white,
+.mpsl-sub-header-white,
+.mpsl-text-white {
+	&:not([class*="mpsl-preset"]) {
+		color: $baseWhite;
+
+		&.in-box {
+			background: $baseDark;
+		}
+	}
+}
+a.ms_button_layer {
+	&:not([class*="mpsl-preset"]) {
+		color: $baseWhite;
+		font-weight: bold;
+		font-size: 1.1875rem;
+		line-height: 2.125rem;
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 23px 50px;
+		border-radius: 5px;
+
+		&:hover {
+			background: $baseDark;
+			color: $baseWhite;
+			text-decoration: none;
+		}
+		&:active {
+			text-decoration: none;
+		}
+		&:not(.mpsl-button-red):not(.mpsl-button-green):not(.mpsl-button-blue) {
+			border: 2px solid $baseWhite;
+		}
+	}
+}
+.ms_wrapper {
+	.in-box {
+		padding: 30px 40px;
+		box-shadow: 14px 16px 18px rgba(0,0,0,.4);
+	}
+	.mpsl-sub-header-dark, 
+	.mpsl-sub-header-white {
+		&:not([class*="mpsl-preset"]) {
+			&.in-box {
+				padding: 15px 75px;
+			}
+		}
+	}
+	.mpsl-header-dark,
+	.mpsl-sub-header-dark,
+	.mpsl-text-dark,
+	.mpsl-header-white,
+	.mpsl-sub-header-white,
+	.mpsl-text-white {
+		&:not([class*="mpsl-preset"]) {
+			&.color-link {
+				color: $baseLightBlue;
+			}
+			&.color-warning {
+				color: $baseYellow;
+			}
+			&.color-danger {
+				color: $baseRed;
+			}
+			&.color-info {
+				color: $baseDarkBlue;
+			}
+			&.color-success {
+				color: $baseLightGreen;
+			}
+			&.color-secondary {
+				color: $baseDark;
+			}
+			&.background-link {
+				background: $baseLightBlue;
+			}
+			&.background-warning {
+				background: $baseYellow;
+			}
+			&.background-danger {
+				background: $baseRed;
+			}
+			&.background-info {
+				background: $baseDarkBlue;
+			}
+			&.background-success {
+				background: $baseLightGreen;
+			}
+			&.background-secondary {
+				background: $baseDark;
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/* Logo
+================================================== */
+.site-branding {
+	padding: 0;
+
+	&.with-trigger {
+		.menu-trigger {
+			display: none;
+		}
+	}
+	> .site-description {
+		display: none !important;
+	}
+}
+.site-title {
+	margin: 0;
+	padding: 0;
+	@include transform-origin(0);
+	@include transition(all 0.3s ease-in-out);
+
+	&.image-logo {
+		font-size: 1rem;
+		line-height: 1em;
+	}
+	&.text-logo {
+		line-height: 0;
+		font-size: 0;
+		padding: 10px 0;
+	}
+}
+
+/* Logo */

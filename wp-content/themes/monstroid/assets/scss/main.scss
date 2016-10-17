@@ -1,0 +1,22 @@
+/*
+Description: The stylesheet with a main style.
+Author:      Cherry Team
+Version:     1.0.0
+*/
+
+@import "css-framework/base";
+@import "monstroid-mixins";
+@import "panel-switcher";
+@import "layout";
+@import "forms";
+@import "sidebar";
+@import "blog";
+@import "portfolio";
+@import "woo-commerce";
+@import "shortcodes";
+@import "single-pages";
+@import "slider";
+@import "typography";
+@import "misc";
+@import "all-in-one-event-calendar";
+@import "bbpress";

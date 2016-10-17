@@ -1,0 +1,91 @@
+/* Flat Masks
+================================================== */
+.row-svg {
+	overflow: hidden;
+
+	> .inner {
+		> .container,
+		> .container-fluid {
+			position: relative;
+			z-index: 100;
+
+			& ~ .masks {
+				z-index: 10;
+			}
+		}
+	}
+}
+.parallax-box {
+	&.parallax-svg {
+		.parallax-content {
+			z-index: 101;
+		}
+		.masks {
+			z-index: 100;
+		}
+		.parallax-bg {
+			z-index: 99;
+		}
+	}
+}
+.masks {
+	position: absolute;
+	bottom: -1px;
+	top: -1px;
+	right: -1px;
+	left: -1px;
+
+	.svgmask {
+		width: 100%;
+		max-height: 100%;
+		position: absolute;
+		left: 0;
+
+		@media (max-width: 1600px) {
+			height: 150px;
+		}
+		@media (max-width: 768px) {
+			height: 100px;
+		}
+		&.top {
+			top: 0;
+
+			.only-bottom-padding & {
+				.depend {
+					display: none;
+				}
+			}
+		}
+		&.bottom {
+			bottom: 0;
+
+			.only-top-padding & {
+				.depend {
+					display: none;
+				}
+			}
+		}
+	}
+}
+.cherry-box {
+	> .inner {
+		position: relative;
+	}
+}
+.row {
+	&.first {
+		.top {
+			.triangle.depend {
+				display: none;
+			}
+		}
+	}
+	&.last {
+		.bottom {
+			.triangle.depend {
+				display: none;
+			}
+		}
+	}
+}
+/* Flat Masks */

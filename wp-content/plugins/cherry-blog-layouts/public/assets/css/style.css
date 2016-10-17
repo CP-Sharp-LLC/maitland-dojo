@@ -1,0 +1,122 @@
+.taxonomy-filter {
+  width: 100%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.taxonomy-filter li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.taxonomy-filter li a.active {
+  text-decoration: underline;
+}
+
+.grid-layout .grid-layout-item.clear-item {
+  clear: both;
+}
+
+.masonry-layout {
+  width: 100%;
+  position: relative;
+}
+.masonry-layout .masonry-wrapper {
+  /*-webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;*/
+}
+.masonry-layout .masonry-layout-item {
+  width: 20%;
+  display: inline-block;
+  /*-webkit-transform: translate3d(0, 0, 0);
+  width: 100%;
+  display: inline-block;*/
+}
+
+.timeline-layout {
+  width: 100%;
+  position: relative;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.timeline-layout .timeline-wrapper {
+  position: relative;
+}
+.timeline-layout section.timeline-group {
+  margin-bottom: 30px;
+}
+.timeline-layout article.timeline-layout-item {
+  width: 45%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #ebeaea;
+}
+.timeline-layout article.timeline-layout-item.odd {
+  float: left;
+  clear: left;
+}
+.timeline-layout article.timeline-layout-item.odd .marker {
+  left: 50%;
+  margin-left: -5px;
+}
+.timeline-layout article.timeline-layout-item.odd .arrow {
+  left: 50%;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ebeaea;
+}
+.timeline-layout article.timeline-layout-item.even {
+  float: right;
+  clear: right;
+}
+.timeline-layout article.timeline-layout-item.even .marker {
+  right: 50%;
+  margin-right: -5px;
+  margin-top: 20px;
+}
+.timeline-layout article.timeline-layout-item.even .arrow {
+  right: 50%;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #ebeaea transparent transparent;
+  margin-top: 15px;
+}
+.timeline-layout article.timeline-layout-item .marker {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #ebeaea;
+  display: block;
+  border-radius: 10px;
+}
+.timeline-layout article.timeline-layout-item .marker span {
+  white-space: nowrap;
+}
+.timeline-layout article.timeline-layout-item .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  display: block;
+  margin-top: -5px;
+}
+.timeline-layout span.timeline-line {
+  width: 2px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-color: #ebeaea;
+  left: 50%;
+  top: 0;
+  margin-left: -1px;
+  z-index: -1;
+}
+.timeline-layout .timeline-breakpiont {
+  width: 150px;
+  margin: 20px auto;
+  background-color: #ebeaea;
+  padding: 5px 10px;
+  text-align: center;
+}

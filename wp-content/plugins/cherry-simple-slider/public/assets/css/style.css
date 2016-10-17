@@ -1,0 +1,25 @@
+/* 3d mixins */
+/* end 3d mixins */
+.slider-container {
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+.slider-container .slider-pro .sp-slides-container .sp-slides .sp-slide iframe.sp-video {
+  width: 100%;
+  height: 100%;
+}
+.slider-container .slider-pro .sp-slides-container .sp-slides .sp-slide video.sp-video {
+  width: 100%;
+  height: 100%;
+}
+.slider-container .slider-pro .sp-slides-container .sp-slides .sp-slide a.sp-video:after {
+  height: 45px;
+  line-height: 40px;
+}
+.slider-container .slider-pro .sp-thumbnails-container .sp-thumbnails .sp-thumbnail-container {
+  border: 0px solid #f62e46;
+}
+.slider-container .slider-pro .sp-thumbnails-container .sp-thumbnails .sp-thumbnail-container.sp-selected-thumbnail {
+  border: 5px solid #f62e46;
+}

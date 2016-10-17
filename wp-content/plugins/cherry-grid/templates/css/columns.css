@@ -1,0 +1,38 @@
+.%%class%% .cherry-grid_list {
+	-moz-column-count: %%columns%%;
+	-moz-column-gap: %%gutter&px%%;
+	-webkit-column-count: %%columns%%;
+	-webkit-column-gap: %%gutter&px%%;
+	column-count: %%columns%%;
+	column-gap: %%gutter&px%%;
+	width: 100%;
+}
+
+.%%class%% .cherry-grid_item {
+	margin-bottom: %%gutter&px%%;
+	display: inline-block;
+}
+
+@media (max-width: 767px) {
+	.%%class%% .cherry-grid_list {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+		width: auto;
+		margin: 0 20px;
+	}
+}
+@media (max-width: 480px) {
+	.%%class%% .cherry-grid_list {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}
+
+.no-columns .%%class%% .cherry-grid_item {
+	margin: 0 %%gutter*0.5&px%% %%gutter&px%%;
+}

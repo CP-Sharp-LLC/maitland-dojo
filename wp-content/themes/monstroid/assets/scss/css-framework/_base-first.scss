@@ -1,0 +1,21 @@
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset
+@import "normalize";
+
+// Core CSS
+@import "scaffolding";
+
+// Grid
+// @import "grid";
+@import "responsive/grid";
+.container,
+.container-fluid {
+	@include container-fixed;
+}
+
+.cherry-no-responsive {
+	@import "layouts/blog";
+}

@@ -1,0 +1,23 @@
+$margins: (
+	zero: 0,
+	one: 10,
+	two: 15,
+	three: 20,
+	four: 25,
+	five: 50,
+	six: 100
+);
+@each $number, $margin in $margins {
+    .motopress-margin-top-#{$margin} {
+        margin-top: #{$margin}px !important;
+    }
+    .motopress-margin-bottom-#{$margin} {
+        margin-bottom: #{$margin}px !important;
+    }
+    .motopress-margin-left-#{$margin} {
+        margin-left: #{$margin}px !important;
+    }
+    .motopress-margin-right-#{$margin} {
+        margin-right: #{$margin}px !important;
+    }
+}

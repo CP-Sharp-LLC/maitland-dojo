@@ -1,0 +1,1518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blank\n"
+"POT-Creation-Date: 2016-04-25 10:54+0200\n"
+"PO-Revision-Date: 2016-04-25 10:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: Monstroid Team\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:20
+msgid "Sorry"
+msgstr ""
+
+#: ../404.php:21
+msgid "It's not you. It's us."
+msgstr ""
+
+#: ../404.php:22
+msgid "The page you are looking for can't be found."
+msgstr ""
+
+#: ../404.php:23
+msgid "Go Home!"
+msgstr ""
+
+#: ../functions.php:141 ../functions.php:142
+msgid "Clients"
+msgstr ""
+
+#: ../functions.php:167
+msgid "Categories"
+msgstr ""
+
+#: ../functions.php:168
+msgid "Category"
+msgstr ""
+
+#: ../functions.php:362
+msgid "To Top"
+msgstr ""
+
+#: ../functions.php:363
+msgid "Display to top button?"
+msgstr ""
+
+#: ../functions.php:368
+msgid "404 content"
+msgstr ""
+
+#: ../functions.php:369
+msgid "Enter 404 page content."
+msgstr ""
+
+#: ../functions.php:397
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../functions.php:398
+msgid ""
+"You can paste your Google Analytics or other tracking code in this box. This "
+"will be automatically added to the footer."
+msgstr ""
+
+#: ../functions.php:412 ../admin/class-monstroid-pagetitleblock-meta.php:108
+msgid "Choose paddings for page content"
+msgstr ""
+
+#: ../functions.php:418 ../admin/class-monstroid-pagetitleblock-meta.php:203
+msgid "Content with top and bottom paddings"
+msgstr ""
+
+#: ../functions.php:422 ../admin/class-monstroid-pagetitleblock-meta.php:207
+msgid "Content bottom padding"
+msgstr ""
+
+#: ../functions.php:426 ../admin/class-monstroid-pagetitleblock-meta.php:211
+msgid "Content top padding"
+msgstr ""
+
+#: ../functions.php:430 ../admin/class-monstroid-pagetitleblock-meta.php:215
+msgid "No paddings"
+msgstr ""
+
+#: ../functions.php:497
+msgid "Monstroid documentation"
+msgstr ""
+
+#: ../functions.php:504
+msgid "Skins"
+msgstr ""
+
+#: ../functions.php:507
+msgid "Material"
+msgstr ""
+
+#: ../functions.php:508
+msgid "Material design"
+msgstr ""
+
+#: ../functions.php:513
+msgid "Dark"
+msgstr ""
+
+#: ../functions.php:514
+msgid "Dark design"
+msgstr ""
+
+#: ../functions.php:519
+msgid "Minimal"
+msgstr ""
+
+#: ../functions.php:520
+msgid "Minimal design"
+msgstr ""
+
+#: ../functions.php:525
+msgid "Flat"
+msgstr ""
+
+#: ../functions.php:526
+msgid "Flat design"
+msgstr ""
+
+#: ../functions.php:532
+msgid "Layout type"
+msgstr ""
+
+#: ../functions.php:543
+msgid "Skins functions"
+msgstr ""
+
+#: ../functions.php:547
+msgid ""
+"Enable additional skins functionality. Note that each skin can has its own "
+"functions. If to enable a function of the certain skin, it leads to initial "
+"design changes of the other. However you can create some new combinations or "
+"use the design as is."
+msgstr ""
+
+#: ../functions.php:551
+msgid "Material-skin addons"
+msgstr ""
+
+#: ../functions.php:555
+msgid "Dark-skin addons"
+msgstr ""
+
+#: ../functions.php:559
+msgid "Minimal-skin addons"
+msgstr ""
+
+#: ../functions.php:563
+msgid "Flat-skin addons"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:58
+msgid "Additional page options"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:102
+msgid "Breadcrumbs and title"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:182
+#: ../admin/class-monstroid-pagetitleblock-meta.php:199
+msgid "Inherit"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:183
+msgid "Don't display"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:184
+msgid "Show both - breadcrumbs and title"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:185
+msgid "Show only page title"
+msgstr ""
+
+#: ../admin/class-monstroid-pagetitleblock-meta.php:186
+msgid "Show only breadcrumbs"
+msgstr ""
+
+#: ../includes/blog-functions.php:96
+msgid "Featured Image Size"
+msgstr ""
+
+#: ../includes/blog-functions.php:99 ../includes/blog-functions.php:102
+msgid "Set dimensions for post featured images."
+msgstr ""
+
+#: ../includes/blog-functions.php:105
+msgid "Small"
+msgstr ""
+
+#: ../includes/blog-functions.php:106
+msgid "Medium"
+msgstr ""
+
+#: ../includes/blog-functions.php:107
+msgid "Large"
+msgstr ""
+
+#: ../includes/blog-functions.php:159
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/blog-functions.php:159
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/blog-functions.php:163
+#, php-format
+msgid "<h5><cite class=\"fn\">%s</cite></h5>"
+msgstr ""
+
+#: ../includes/blog-functions.php:171
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/blog-functions.php:186
+msgid "User Position"
+msgstr ""
+
+#: ../includes/blog-functions.php:190
+msgid "Please enter your position."
+msgstr ""
+
+#: ../includes/blog-functions.php:263
+msgid "Name:"
+msgstr ""
+
+#: ../includes/blog-functions.php:264
+msgid "E-mail:"
+msgstr ""
+
+#: ../includes/blog-functions.php:265
+msgid "Website:"
+msgstr ""
+
+#: ../includes/blog-functions.php:266 ../includes/blog-functions.php:267
+msgid "Comment:"
+msgstr ""
+
+#: ../includes/blog-functions.php:288
+msgid "Search for:"
+msgstr ""
+
+#: ../includes/blog-functions.php:310 ../includes/blog-functions.php:332
+#: ../includes/shortcodes-functions.php:547
+msgid "Default"
+msgstr ""
+
+#: ../includes/blog-functions.php:311 ../includes/blog-functions.php:333
+msgid "Type 1"
+msgstr ""
+
+#: ../includes/blog-functions.php:312 ../includes/blog-functions.php:334
+msgid "Type 2"
+msgstr ""
+
+#: ../includes/blog-functions.php:313
+msgid "Type 3"
+msgstr ""
+
+#: ../includes/blog-functions.php:316
+msgid "Template"
+msgstr ""
+
+#: ../includes/blog-functions.php:317
+msgid "Select template to show posts from"
+msgstr ""
+
+#: ../includes/blog-functions.php:326
+msgid "Template type"
+msgstr ""
+
+#: ../includes/blog-functions.php:328
+msgid "Select template type for blog posts"
+msgstr ""
+
+#: ../includes/class-cherry-wc-product-video-tab.php:70
+msgid "Product video"
+msgstr ""
+
+#: ../includes/class-cherry-wc-product-video-tab.php:120
+msgid "Video"
+msgstr ""
+
+#: ../includes/class-cherry-wc-product-video-tab.php:145
+msgid "YouTube video link"
+msgstr ""
+
+#: ../includes/class-cherry-wc-product-video-tab.php:145
+msgid "Paste YouTube video URL"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:163
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:164
+#: ../includes/required-plugins.php:377
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:165
+#: ../includes/required-plugins.php:378
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:166
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:177
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:178
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:179
+#: ../includes/class-tgm-plugin-activation.php:2029
+#: ../includes/required-plugins.php:391
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:180
+#: ../includes/class-tgm-plugin-activation.php:1715
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:181
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:182
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:594
+#: ../includes/class-tgm-plugin-activation.php:2246
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1231
+#: ../includes/class-tgm-plugin-activation.php:1412
+msgid "Private Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1234
+#: ../includes/class-tgm-plugin-activation.php:1415
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1239
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1242
+msgid "Required"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1242
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1245
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1247
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1352
+#: ../includes/class-tgm-plugin-activation.php:1473
+msgid "Install"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1376
+#: ../includes/class-tgm-plugin-activation.php:1474
+msgid "Activate"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1436
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1452
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1453
+msgid "Source"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1454
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1455
+msgid "Status"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2012
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2013
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2014
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2015
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2016
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2017
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2142
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2143
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2143
+#: ../includes/class-tgm-plugin-activation.php:2152
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2143
+#: ../includes/class-tgm-plugin-activation.php:2152
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2144
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2145
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2149
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2150
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2151
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2152
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2153
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2154
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/olark-live-chat.php:14
+msgid "Enable Olark live chat"
+msgstr ""
+
+#: ../includes/olark-live-chat.php:15
+msgid "Enable Olark live chat (frontend only)."
+msgstr ""
+
+#: ../includes/olark-live-chat.php:18
+msgid "Enabled"
+msgstr ""
+
+#: ../includes/olark-live-chat.php:19
+msgid "Disabled"
+msgstr ""
+
+#: ../includes/olark-live-chat.php:26
+msgid "Olark live chat ID"
+msgstr ""
+
+#: ../includes/olark-live-chat.php:27
+msgid "To enable Olark live chat enter your live chat account ID here."
+msgstr ""
+
+#: ../includes/olark-live-chat.php:27
+msgid "Get own account ID."
+msgstr ""
+
+#: ../includes/olark-live-chat.php:33
+msgid "Olark Live Chat"
+msgstr ""
+
+#: ../includes/portfolio-functions.php:14
+msgid "Primary color"
+msgstr ""
+
+#: ../includes/portfolio-functions.php:15
+msgid "Choose portfolio Primary color."
+msgstr ""
+
+#: ../includes/portfolio-functions.php:39
+msgid "All"
+msgstr ""
+
+#: ../includes/required-plugins.php:24 ../includes/required-plugins.php:183
+msgid "Cherry blog layouts"
+msgstr ""
+
+#: ../includes/required-plugins.php:29 ../includes/required-plugins.php:190
+msgid "Cherry charts"
+msgstr ""
+
+#: ../includes/required-plugins.php:34 ../includes/required-plugins.php:197
+msgid "Cherry data manager"
+msgstr ""
+
+#: ../includes/required-plugins.php:39 ../includes/required-plugins.php:204
+msgid "Cherry grid"
+msgstr ""
+
+#: ../includes/required-plugins.php:44 ../includes/required-plugins.php:211
+msgid "Cherry mega menu"
+msgstr ""
+
+#: ../includes/required-plugins.php:49 ../includes/required-plugins.php:218
+msgid "Cherry portfolio"
+msgstr ""
+
+#: ../includes/required-plugins.php:54 ../includes/required-plugins.php:225
+msgid "Cherry rank"
+msgstr ""
+
+#: ../includes/required-plugins.php:59 ../includes/required-plugins.php:232
+msgid "Cherry services"
+msgstr ""
+
+#: ../includes/required-plugins.php:64
+msgid "Cherry Shortcodes"
+msgstr ""
+
+#: ../includes/required-plugins.php:69 ../includes/required-plugins.php:246
+msgid "Cherry shortcodes templater"
+msgstr ""
+
+#: ../includes/required-plugins.php:74 ../includes/required-plugins.php:253
+msgid "Cherry sidebar manager"
+msgstr ""
+
+#: ../includes/required-plugins.php:79 ../includes/required-plugins.php:260
+msgid "Cherry simple slider"
+msgstr ""
+
+#: ../includes/required-plugins.php:84 ../includes/required-plugins.php:267
+msgid "Cherry social"
+msgstr ""
+
+#: ../includes/required-plugins.php:89 ../includes/required-plugins.php:274
+msgid "Cherry style switcher"
+msgstr ""
+
+#: ../includes/required-plugins.php:94 ../includes/required-plugins.php:281
+msgid "Cherry team"
+msgstr ""
+
+#: ../includes/required-plugins.php:99 ../includes/required-plugins.php:288
+msgid "Cherry testimonials"
+msgstr ""
+
+#: ../includes/required-plugins.php:104 ../includes/required-plugins.php:295
+msgid "Cherry white label"
+msgstr ""
+
+#: ../includes/required-plugins.php:109
+msgid "Monstroid Dashboard"
+msgstr ""
+
+#: ../includes/required-plugins.php:114 ../includes/required-plugins.php:309
+msgid "Motopress content editor"
+msgstr ""
+
+#: ../includes/required-plugins.php:119 ../includes/required-plugins.php:315
+msgid "Motopress slider"
+msgstr ""
+
+#: ../includes/required-plugins.php:124
+msgid "MotoPress and CherryFramework4 integration"
+msgstr ""
+
+#: ../includes/required-plugins.php:129 ../includes/required-plugins.php:328
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../includes/required-plugins.php:134 ../includes/required-plugins.php:333
+msgid "Woocommerce"
+msgstr ""
+
+#: ../includes/required-plugins.php:140 ../includes/required-plugins.php:338
+msgid "Yith woocommerce compare"
+msgstr ""
+
+#: ../includes/required-plugins.php:146 ../includes/required-plugins.php:343
+msgid "Yith woocommerce wishlist"
+msgstr ""
+
+#: ../includes/required-plugins.php:152 ../includes/required-plugins.php:353
+msgid "Yith woocommerce quick view"
+msgstr ""
+
+#: ../includes/required-plugins.php:158 ../includes/required-plugins.php:348
+msgid "Yith woocommerce zoom magnifier"
+msgstr ""
+
+#: ../includes/required-plugins.php:164 ../includes/required-plugins.php:358
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: ../includes/required-plugins.php:239
+msgid "Cherry shortcodes"
+msgstr ""
+
+#: ../includes/required-plugins.php:302
+msgid "Monstroid dashboard"
+msgstr ""
+
+#: ../includes/required-plugins.php:321
+msgid "MotoPress and CherryFramework 4 Integration"
+msgstr ""
+
+#: ../includes/required-plugins.php:376
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../includes/required-plugins.php:379
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/required-plugins.php:390
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: ../includes/required-plugins.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:33
+msgid "Theme URI"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:34
+msgid "This is a Theme URI Shortcode"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:40
+msgid "Class"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:41
+msgid "Extra CSS class"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:50
+#: ../includes/shortcodes-functions.php:55
+#: ../includes/shortcodes-functions.php:548
+msgid "Primary"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:51
+#: ../includes/shortcodes-functions.php:56
+#: ../includes/shortcodes-functions.php:549
+msgid "Secondary"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:52
+#: ../includes/shortcodes-functions.php:57
+msgid "Simple"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:64
+msgid "Left"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:65
+msgid "Right"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:66
+msgid "Center"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:69
+msgid "Align"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:70
+msgid "Titles alignment"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:75
+msgid "Title > Subtitle"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:76
+msgid "Subtitle > Title"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:79
+msgid "Title or subtitle be first?"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:80
+msgid "Subtitle after title or title after subtitle"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:85
+msgid "Style 1 (normal)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:86
+msgid "Style 2 (smaller)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:87
+msgid "Style 3 (bigger)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:90
+msgid "Title size"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:91
+msgid "Choose default size of title"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:99
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:100
+msgid "Select background color"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:105
+msgid "Border"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:106
+msgid "Setup border"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:111
+#: ../includes/shortcodes-functions.php:124
+#: ../includes/shortcodes-functions.php:134
+msgid "Normal"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:112
+msgid "Square"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:113
+msgid "Round"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:116
+msgid "Geometric type"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:117
+msgid "Choose geometric type"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:125
+#: ../includes/shortcodes-functions.php:135
+msgid "Only Logos"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:128
+#: ../includes/shortcodes-functions.php:138
+msgid "Style of social icons"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:129
+#: ../includes/shortcodes-functions.php:139
+msgid "Choose style of icons"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:184
+msgid "Triangle progress bar"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:264
+msgid "Profession:"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:265
+msgid "Enter a profession."
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:277
+msgid "Rate:"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:278
+msgid "Rate testimonal"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:317
+msgid "Department:"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:335
+msgid "Profession"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:341
+msgid "Rating"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:372
+msgid "Author (Testimonials only)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:378
+msgid "Profession (Testimonials only)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:384
+msgid "Rating (Testimonials only)"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:447
+msgid "Paddings"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:452
+msgid "Padding top 20px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:456
+msgid "Padding top 40px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:460
+msgid "Padding top 60px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:464
+msgid "Padding top 80px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:468
+msgid "Padding top 100px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:472
+msgid "Padding top 120px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:476
+msgid "Padding top 140px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:480
+msgid "Padding top 160px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:484
+msgid "Padding bottom 20px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:488
+msgid "Padding bottom 40px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:492
+msgid "Padding bottom 60px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:496
+msgid "Padding bottom 80px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:500
+msgid "Padding bottom 100px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:504
+msgid "Padding bottom 120px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:508
+msgid "Padding bottom 140px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:512
+msgid "Padding bottom 160px"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:524
+msgid "Style-1"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:525
+msgid "Style-2"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:526
+msgid "Pills-1"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:527
+msgid "Pills-2"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:528
+msgid "Pills-3"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:529
+msgid "Pills-4"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:530
+msgid "Pills-5"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:531
+msgid "Pills-6"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:532
+msgid "Simple-1"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:533
+msgid "Simple-2"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:534
+msgid "Simple-3"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:535
+msgid "Simple-4"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:536
+msgid "Simple-5"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:537
+msgid "Simple-6"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:550
+msgid "Success"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:551
+msgid "Info"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:552
+msgid "Warning"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:553
+msgid "Danger"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:554
+msgid "Gray"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:555
+msgid "Polygonal 1"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:556
+msgid "Polygonal 2"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:557
+msgid "Polygonal 3"
+msgstr ""
+
+#: ../includes/shortcodes-functions.php:558
+msgid "Polygonal 4"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:26
+msgid "Compare"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:27
+msgid "Quick View"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:28
+msgid "Wishlist"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:125
+#: ../includes/woocommerce-functions.php:126
+msgid "Details"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:143
+msgid "Shop sidebar"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:145
+msgid "Sidebar for shop page"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:281
+#: ../includes/woocommerce-functions.php:499
+msgid "Shop"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:465
+msgid "Main sidebar for shop page"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:469
+msgid "Select main sidebar to show on shop page"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:476
+msgid "Main sidebar for shop category and tags pages"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:480
+msgid "Select main sidebar to show it on category and tags pages"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:487
+msgid "Main sidebar for single product page"
+msgstr ""
+
+#: ../includes/woocommerce-functions.php:491
+msgid "Select main sidebar to show it on single product page"
+msgstr ""
+
+#: ../init/config/sidebars.php:25
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:26
+msgid ""
+"This is the main sidebar if you are using a two or three column site layout "
+"option."
+msgstr ""
+
+#: ../init/config/sidebars.php:33
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:34
+msgid ""
+"This is the secondary sidebar if you are using a three column site layout "
+"option."
+msgstr ""
+
+#: ../init/config/sidebars.php:41
+msgid "Header Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:42
+msgid "A sidebar located in the header of the site."
+msgstr ""
+
+#: ../init/config/sidebars.php:49
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: ../init/config/sidebars.php:50 ../init/config/sidebars.php:58
+#: ../init/config/sidebars.php:66 ../init/config/sidebars.php:74
+msgid "A sidebar located in the footer of the site."
+msgstr ""
+
+#: ../init/config/sidebars.php:57
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: ../init/config/sidebars.php:65
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: ../init/config/sidebars.php:73
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: ../init/config/sidebars.php:81
+msgid "Footer Shop Sidebar 1"
+msgstr ""
+
+#: ../init/config/sidebars.php:82 ../init/config/sidebars.php:90
+#: ../init/config/sidebars.php:98 ../init/config/sidebars.php:106
+msgid "A sidebar located in the footer of the shop home page."
+msgstr ""
+
+#: ../init/config/sidebars.php:89
+msgid "Footer Shop Sidebar 2"
+msgstr ""
+
+#: ../init/config/sidebars.php:97
+msgid "Footer Shop Sidebar 3"
+msgstr ""
+
+#: ../init/config/sidebars.php:105
+msgid "Footer Shop Sidebar 4"
+msgstr ""
+
+#: ../init/config/sidebars.php:113
+msgid "Header Top Line Sidebar For Shop Menu"
+msgstr ""
+
+#: ../init/config/sidebars.php:114 ../init/config/sidebars.php:122
+msgid "A sidebar located in the header of the shop pages."
+msgstr ""
+
+#: ../init/config/sidebars.php:121
+msgid "Header Top Line Sidebar For Search and Cart"
+msgstr ""
+
+#: ../init/config/static-areas.php:24
+msgid "Header Top"
+msgstr ""
+
+#: ../init/config/static-areas.php:30
+msgid "Header Bottom"
+msgstr ""
+
+#: ../init/config/static-areas.php:36
+msgid "Showcase Area"
+msgstr ""
+
+#: ../init/config/static-areas.php:42
+msgid "Footer Top"
+msgstr ""
+
+#: ../init/config/static-areas.php:48
+msgid "Footer Bottom"
+msgstr ""
+
+#: ../init/config/static-areas.php:54
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: ../init/config/static-areas.php:60
+msgid "Footer Shop Widgets Area"
+msgstr ""
+
+#: ../init/config/static-areas.php:66
+msgid "Header Top Line Shop"
+msgstr ""
+
+#: ../init/statics/footer-shop-sidebars.php:38
+msgid "Footer Shop Sidebars"
+msgstr ""
+
+#: ../init/statics/header-shop-main-menu.php:46
+msgid "Header Shop Main Menu"
+msgstr ""
+
+#: ../init/statics/header-shop-menu.php:36
+msgid "Header Shop Menu Sidebar"
+msgstr ""
+
+#: ../init/statics/header-shop-search-cart.php:36
+msgid "Header Shop Search Cart Sidebar"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:69
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:80
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:81
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:82
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:84
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:85
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:86
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:90
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:100
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:28
+msgid "Edit title"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:37
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:41
+msgid "Cancel"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:78
+msgid "Product Name"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:85
+msgid "Unit Price"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:98
+msgid "Stock Status"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:144 ../woocommerce/wishlist-view.php:253
+msgid "Remove this product"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:174
+msgid "Free!"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:185
+msgid "Out of Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:188
+msgid "In Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:199
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:215
+msgid "Read More"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:221
+msgid "Move"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:233
+msgid "Shared"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:236
+msgid "Private"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:239
+msgid "Public"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:253
+msgid "Remove"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:263
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:280
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:288 ../woocommerce/wishlist-view.php:330
+msgid "Ask for an estimate"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:24
+msgid "Subtotal:"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:46
+msgid "Shipping:"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:78
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:122
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:122
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:128
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:56
+msgid "Placeholder"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:32
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:33
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:42
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:51
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:43
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:25
+msgid ""
+"Shows a price filter slider in a widget which lets you narrow down the list "
+"of shown products when viewing product categories."
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:27
+msgid "WooCommerce Price Filter"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:31
+msgid "Filter by price"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:32
+msgid "Title"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:178
+msgid "Price:"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:181
+msgid "Min price"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:182
+msgid "Max price"
+msgstr ""
+
+#: ../woocommerce/widgets/class-wc-widget-price-filter.php:183
+msgid "Filter"
+msgstr ""

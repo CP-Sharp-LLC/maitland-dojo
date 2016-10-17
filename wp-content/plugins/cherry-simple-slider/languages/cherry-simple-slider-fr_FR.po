@@ -1,0 +1,754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-simple-slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-11 14:42+0200\n"
+"PO-Revision-Date: 2015-12-11 14:42+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-slider-admin.php:114
+#: public/includes/classes/class-cherry-slider-registration.php:121
+msgid "Slider"
+msgstr "Diaporama"
+
+#: admin/includes/class-cherry-slider-admin.php:115
+msgid "Date"
+msgstr "Date"
+
+#: admin/includes/class-cherry-slider-admin.php:116
+msgid "Preview"
+msgstr "Aperçu"
+
+#: admin/includes/class-cherry-slider-admin.php:150
+msgid "This slide is not related to any slider"
+msgstr "Cette diapositive n'est lié à aucune diaporama"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:59
+msgid "Post format options"
+msgstr "Options du format de l'article"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:144
+#: admin/includes/class-cherry-slider-meta-boxes.php:145
+msgid "Content width"
+msgstr "Largeur du contenu "
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:151
+#: admin/includes/class-cherry-slider-meta-boxes.php:152
+msgid "Content vertical"
+msgstr "Contenu vertical"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:158
+msgid "Content Position"
+msgstr "Position du contenu"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:159
+msgid "Select content position"
+msgstr "Sélectionnez la position du contenu"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:163
+msgid "topLeft position"
+msgstr "position en haut à Gauche"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:164
+msgid "topCenter position"
+msgstr "position en haut au Centre"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:165
+msgid "topRight position"
+msgstr "position en haut à Droite"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:166
+msgid "bottomLeft position"
+msgstr "position en bas à Gauche"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:167
+msgid "bottomCenter position"
+msgstr "position en bas au Centre"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:168
+msgid "bottomRight position"
+msgstr "position en bas à Droite"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:169
+msgid "centerLeft position"
+msgstr "position au centre à Gauche"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:170
+msgid "centerRight position"
+msgstr "position au centre à Droite"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:171
+msgid "centerCenter position"
+msgstr "position centre Centre"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:177
+msgid "Content show transition"
+msgstr "Transition du contenu"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:178
+msgid ""
+"Sets the transition of the layer when it appears in the slide. Can be set to "
+"left, right, up or down, these values describe the direction in which the "
+"layer will move when it appears."
+msgstr ""
+"Définir la transition de la couche quand il apparaît dans la diapositive. "
+"Peut être réglé à gauche, à droite, en haut, en bas, ces valeurs décrivent "
+"la direction dans laquelle la couche se déplace quand elle apparaît."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:182
+#: admin/includes/class-cherry-slider-meta-boxes.php:214
+msgid "Left transition"
+msgstr "Transition à gauche"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:183
+#: admin/includes/class-cherry-slider-meta-boxes.php:215
+msgid "Right transition"
+msgstr "Transition à droite"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:184
+#: admin/includes/class-cherry-slider-meta-boxes.php:216
+msgid "Up transition"
+msgstr "Transition vers un haut"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:185
+#: admin/includes/class-cherry-slider-meta-boxes.php:217
+msgid "Down transition"
+msgstr "Transition vers le bas"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:191
+msgid "Content show duration"
+msgstr "Content show duration"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:192
+msgid "Sets the duration of the show transition."
+msgstr "Sets the duration of the show transition."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:200
+msgid "Content show delay"
+msgstr "Content show delay"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:201
+msgid "Sets the delay of the show transition."
+msgstr "Sets the delay of the show transition."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:209
+msgid "Content hide transition"
+msgstr "Content hide transition"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:210
+msgid ""
+"Sets the transition of the layer when it disappears from the slide. Can be "
+"set to left, right, up or down, these values describe the direction in which "
+"the layer will move when it disappears."
+msgstr ""
+"Définir la transition de la couche quand il disparaît de la diapositive. "
+"Peut être réglé à gauche, à droite, en haut, en bas, ces valeurs décrivent "
+"la direction dans laquelle la couche se déplace quand elle disparaît."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:223
+msgid "Content hide duration"
+msgstr "Content hide duration"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:224
+msgid "Sets the duration of the hide transition."
+msgstr "Sets the duration of the hide transition."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:232
+msgid "Content hide delay"
+msgstr "Content hide delay"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:233
+msgid "Sets the delay of the hide transition."
+msgstr "Sets the delay of the hide transition."
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:241
+msgid "Content wrapper"
+msgstr "Couverture du contenu"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:242
+msgid "Using content wrapper"
+msgstr "Utiliser la couverture du contenu"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:245
+#: admin/includes/class-cherry-slider-meta-boxes.php:267
+#: public/includes/classes/class-cherry-slider-options.php:266
+#: public/includes/classes/class-cherry-slider-options.php:276
+#: public/includes/classes/class-cherry-slider-options.php:286
+#: public/includes/classes/class-cherry-slider-options.php:296
+#: public/includes/classes/class-cherry-slider-options.php:306
+#: public/includes/classes/class-cherry-slider-options.php:316
+#: public/includes/classes/class-cherry-slider-options.php:326
+#: public/includes/classes/class-cherry-slider-options.php:336
+#: public/includes/classes/class-cherry-slider-options.php:347
+#: public/includes/classes/class-cherry-slider-options.php:357
+msgid "Yes"
+msgstr "Oui"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:246
+#: admin/includes/class-cherry-slider-meta-boxes.php:268
+#: public/includes/classes/class-cherry-slider-options.php:267
+#: public/includes/classes/class-cherry-slider-options.php:277
+#: public/includes/classes/class-cherry-slider-options.php:287
+#: public/includes/classes/class-cherry-slider-options.php:297
+#: public/includes/classes/class-cherry-slider-options.php:307
+#: public/includes/classes/class-cherry-slider-options.php:317
+#: public/includes/classes/class-cherry-slider-options.php:327
+#: public/includes/classes/class-cherry-slider-options.php:337
+#: public/includes/classes/class-cherry-slider-options.php:348
+#: public/includes/classes/class-cherry-slider-options.php:358
+msgid "No"
+msgstr "Non"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:263
+msgid "Crop image"
+msgstr "Recadrer l'image"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:264
+msgid "Using cropped image"
+msgstr "Utiliser l'image recadrée"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:285
+msgid "Audio source"
+msgstr "Audio"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:286
+msgid "Enter audio source( mp3, m4a, ogg, wav, wma )"
+msgstr "Sélectionnez le fichier audio (mp3, m4a, ogg, wav, wma)"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:305
+msgid "Video type"
+msgstr "Type de vidéo"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:306
+msgid "Choose video type"
+msgstr "Choisissez le type de vidéo"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:310
+msgid "Embed video type"
+msgstr "Vidéo intégrée"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:314
+msgid "HTML5 video type"
+msgstr "Vidéo HTML5"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:322
+msgid "Embed video source"
+msgstr "Source vidéo intégrée"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:323
+msgid "Enter source for embed video"
+msgstr "Entrez source pour intégrer la vidéo"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:329
+msgid "MP4 video source"
+msgstr "Source de vidéo MP4"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:330
+msgid "Enter source for MP4 video"
+msgstr "Entrez source pour vidéo MP4"
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:338
+msgid "OGV video source"
+msgstr "Source de vidéo OGV "
+
+#: admin/includes/class-cherry-slider-meta-boxes.php:339
+msgid "Enter source for OGV video"
+msgstr "Entrez source pour vidéo OGV"
+
+#: init/statics/cherry-slider-static.php:49
+#: public/includes/classes/class-cherry-slider-shortcode.php:78
+msgid "Simple Slider"
+msgstr "Diaporama Simple"
+
+#: public/includes/classes/class-cherry-slider-data.php:207
+msgid "Slides not found"
+msgstr "Aucune diapositive trouvée"
+
+#: public/includes/classes/class-cherry-slider-data.php:326
+msgid "Posts not found"
+msgstr "Aucun article trouvé"
+
+#: public/includes/classes/class-cherry-slider-options.php:144
+#: public/includes/classes/class-cherry-slider-shortcode.php:85
+msgid "Slider name"
+msgstr "Nom du diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:145
+#: public/includes/classes/class-cherry-slider-shortcode.php:86
+msgid "Leave field blank, if you need all of the slides"
+msgstr "Laissez le champ vide si vous avez besoin de toutes les diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:150
+msgid "Number of slides"
+msgstr "Nombre de diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:152
+msgid "Indicates number of slides"
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:159
+msgid "Slides order"
+msgstr "Ordre de diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:160
+msgid ""
+"Designates the ascending or descending order of the \"orderby\" parameter."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:164
+msgid "Ascending order from lowest to highest values"
+msgstr "Ordre croissant du plus petite valeur au plus grande"
+
+#: public/includes/classes/class-cherry-slider-options.php:165
+msgid "Descending order from highest to lowest values"
+msgstr "Ordre décroissant du plus grande valeur au plus petite"
+
+#: public/includes/classes/class-cherry-slider-options.php:170
+#: public/includes/classes/class-cherry-slider-shortcode.php:99
+msgid "Slider width"
+msgstr "Largeur de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:171
+msgid "Sets the width of the slide."
+msgstr "Définit la largeur de la diapositive."
+
+#: public/includes/classes/class-cherry-slider-options.php:174
+msgid ""
+"Can be set to a fixed value, like 900 (indicating 900 pixels), or to a "
+"percentage value, like '100%'. It's important to note that percentage values "
+"need to be specified inside quotes. For fixed values, the quotes are not "
+"necessary. Also, please note that, in order to make the slider responsive, "
+"it's not necessary to use percentage values."
+msgstr ""
+"Peut être réglé à une valeur fixe, comme 900 (pixels) ou à une valeur de "
+"pourcentage, comme '100%'. Il est important de noter que le pourcentage de "
+"valeurs doivent être spécifiés entre guillemets. Pour des valeurs fixes, les "
+"citations ne sont pas nécessaires. Veuillez noter aussi que, afin de rendre "
+"slider responsive, il n'est pas nécessaire d'utiliser des valeurs de "
+"pourcentage."
+
+#: public/includes/classes/class-cherry-slider-options.php:180
+#: public/includes/classes/class-cherry-slider-shortcode.php:104
+msgid "Slider height"
+msgstr "Hauteur de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:181
+#: public/includes/classes/class-cherry-slider-options.php:187
+#: public/includes/classes/class-cherry-slider-options.php:197
+msgid ""
+"Sets specific breakpoints which allow changing the look and behavior of the "
+"slider when the page resizes."
+msgstr ""
+"Définit les points d'arrêt spécifiques qui permettent de changer l'apparence "
+"et le comportement de diaporama lorsque la page change ses dimensions"
+
+#: public/includes/classes/class-cherry-slider-options.php:186
+msgid "Slider 992px breakpoint height"
+msgstr "Hauteur de diaporama (point d'arrêt 992px)"
+
+#: public/includes/classes/class-cherry-slider-options.php:190
+#: public/includes/classes/class-cherry-slider-options.php:200
+msgid ""
+"The 'breakpoints' property is assigned an object which contains certain "
+"browser window widths and the slider properties that are applied to those "
+"specific widths. This is very similar to CSS media queries."
+msgstr ""
+"Propriété 'point d'arrêt' définit l'objet dans la fenêtre de certaine "
+"largeur du navigateur et les propriétés de diaporama s'appliquent à cette "
+"largeur spécifique. Ceci est très similaire aux requêtes média CSS."
+
+#: public/includes/classes/class-cherry-slider-options.php:196
+msgid "Slider 768px breakpoint height"
+msgstr "Hauteur de diaporama (point d'arrêt 768px)"
+
+#: public/includes/classes/class-cherry-slider-options.php:206
+msgid "Slider visible size"
+msgstr "Taille visible de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:207
+msgid ""
+"Sets the size of the visible area, allowing for more slides to become "
+"visible near the selected slide."
+msgstr ""
+"Définit la taille de la zone visible, permet d'afficher plus de diapositives "
+"près de la diapositive sélectionnée."
+
+#: public/includes/classes/class-cherry-slider-options.php:212
+msgid "Slider forceSize"
+msgstr "forceSize de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:213
+msgid ""
+"Indicates if the size of the slider will be forced to full width or full "
+"window."
+msgstr ""
+"Définir la taille de diaporama  -  à la pleine largeur du contenu ou à la "
+"pleine largeur de la fenêtre."
+
+#: public/includes/classes/class-cherry-slider-options.php:216
+msgid ""
+"Note: It's possible to make the slider full width or full window by giving "
+"it width and/or height of '100%'. However, sometimes the slider might be "
+"inside other containers which are less than full width/window. The "
+"'forceSize' property is useful in those situations because it will still "
+"enlarge the slider to fill the width or window by overflowing its parent "
+"elements."
+msgstr ""
+"Attention! On peut rendre de diaporama à la pleine largeur du contenu ou à "
+"la pleine largeur de la fenêtre en utilisant la largeur et/ou hauteur "
+"'100%'. Cependant, parfois, le diaporama se trouve dans les autres "
+"conteneurs qui sont moins de largeur pleine/ de fenêtre. La propriété "
+"'forceSize' fonctionne dans tout cas et le diaporama remplira la largeur "
+"pleine de contenu ou de fenêtre en ignorant la taille du conteneur parent."
+
+#: public/includes/classes/class-cherry-slider-options.php:221
+#: public/includes/classes/class-cherry-slider-options.php:399
+msgid "None"
+msgstr "Aucun"
+
+#: public/includes/classes/class-cherry-slider-options.php:222
+msgid "fullWindow"
+msgstr "pleine fenêtre"
+
+#: public/includes/classes/class-cherry-slider-options.php:223
+msgid "fullWidth"
+msgstr "pleine largeur du contenu"
+
+#: public/includes/classes/class-cherry-slider-options.php:228
+#: public/includes/classes/class-cherry-slider-shortcode.php:114
+msgid "Slider orientation"
+msgstr "Orientation de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:229
+msgid ""
+"Indicates whether the slides will be arranged horizontally or vertically."
+msgstr ""
+"Indique si les diapositives seront disposés horizontalement ou verticalement."
+
+#: public/includes/classes/class-cherry-slider-options.php:235
+#: public/includes/classes/class-cherry-slider-shortcode.php:110
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: public/includes/classes/class-cherry-slider-options.php:238
+#: public/includes/classes/class-cherry-slider-shortcode.php:111
+msgid "Vertical"
+msgstr "Verticale"
+
+#: public/includes/classes/class-cherry-slider-options.php:244
+#: public/includes/classes/class-cherry-slider-shortcode.php:123
+msgid "Slide distance"
+msgstr "Distance de diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:246
+msgid "Sets the distance between the slides."
+msgstr "Définir la distance entre des diapositives."
+
+#: public/includes/classes/class-cherry-slider-options.php:253
+msgid "Slide animation duration"
+msgstr "Durée de l'animation de diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:255
+msgid "Sets the duration of the slide animation."
+msgstr "Définit la durée de l'animation de la diapositive."
+
+#: public/includes/classes/class-cherry-slider-options.php:262
+msgid "Slide fading"
+msgstr "Slide fading"
+
+#: public/includes/classes/class-cherry-slider-options.php:263
+msgid "Indicates if fade will be used."
+msgstr "Indique si fade sera utilisé."
+
+#: public/includes/classes/class-cherry-slider-options.php:272
+#: public/includes/classes/class-cherry-slider-shortcode.php:129
+msgid "Slider navigation"
+msgstr "Navigation de la diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:273
+msgid "Indicates whether the arrow buttons will be created."
+msgstr "Indique si les boutons fléchés seront créés."
+
+#: public/includes/classes/class-cherry-slider-options.php:282
+msgid "Slider fade navigation"
+msgstr "Slider fade navigation"
+
+#: public/includes/classes/class-cherry-slider-options.php:283
+msgid "Indicates whether the arrows will fade in only on hover."
+msgstr "Indique si les flèches disparaîtront seulement sur hover"
+
+#: public/includes/classes/class-cherry-slider-options.php:292
+#: public/includes/classes/class-cherry-slider-shortcode.php:135
+msgid "Slider pagination"
+msgstr "Pagination de la diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:293
+msgid "Indicates whether the buttons will be created."
+msgstr "Indique si les boutons seront créés."
+
+#: public/includes/classes/class-cherry-slider-options.php:302
+#: public/includes/classes/class-cherry-slider-shortcode.php:141
+msgid "Slider autoplay"
+msgstr "Lancer automatiquement un diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:303
+msgid "Indicates whether or not autoplay will be enabled."
+msgstr "Indique si la lecture automatique sera activé ou non."
+
+#: public/includes/classes/class-cherry-slider-options.php:312
+#: public/includes/classes/class-cherry-slider-shortcode.php:147
+msgid "Slider fullScreen"
+msgstr "Plein écran"
+
+#: public/includes/classes/class-cherry-slider-options.php:313
+msgid "Indicates whether the full-screen button is enabled."
+msgstr "Indique si le bouton de l'activation de plein écran sera afficher."
+
+#: public/includes/classes/class-cherry-slider-options.php:322
+msgid "Slider shuffle"
+msgstr "Mélange de diapositives"
+
+#: public/includes/classes/class-cherry-slider-options.php:323
+msgid "Indicates if the slides will be shuffled."
+msgstr "Indique si les diapositives seront mélangées."
+
+#: public/includes/classes/class-cherry-slider-options.php:332
+msgid "Slider loop"
+msgstr "Boucle de diaporama"
+
+#: public/includes/classes/class-cherry-slider-options.php:333
+msgid "Indicates if the slider will be loopable (infinite scrolling)."
+msgstr ""
+"Indique si le diaporama fonctionne de manière cyclique (défilement infini)."
+
+#: public/includes/classes/class-cherry-slider-options.php:343
+msgid "Thumbnails"
+msgstr "Vignettes"
+
+#: public/includes/classes/class-cherry-slider-options.php:344
+msgid "Show thumbnails"
+msgstr "Afficher les vignettes"
+
+#: public/includes/classes/class-cherry-slider-options.php:353
+msgid "Thumbnail arrows"
+msgstr "Flèches de vignettes"
+
+#: public/includes/classes/class-cherry-slider-options.php:354
+msgid "Indicates whether the thumbnail arrows will be enabled"
+msgstr "Indique si les flèches de vignettes seront activés"
+
+#: public/includes/classes/class-cherry-slider-options.php:363
+msgid "Thumbnails Position"
+msgstr "Position des vignettes"
+
+#: public/includes/classes/class-cherry-slider-options.php:364
+msgid "Sets the position of the thumbnail scroller"
+msgstr "Définit la position de la barre de défilement des vignettes"
+
+#: public/includes/classes/class-cherry-slider-options.php:368
+msgid "Top position"
+msgstr "Position Haut"
+
+#: public/includes/classes/class-cherry-slider-options.php:369
+msgid "Bottom position"
+msgstr "Position Bas"
+
+#: public/includes/classes/class-cherry-slider-options.php:370
+msgid "Right position"
+msgstr "Position Droite"
+
+#: public/includes/classes/class-cherry-slider-options.php:371
+msgid "Left position"
+msgstr "Position Gauche"
+
+#: public/includes/classes/class-cherry-slider-options.php:376
+msgid "Thumbnail width"
+msgstr "Largeur de vignette"
+
+#: public/includes/classes/class-cherry-slider-options.php:378
+msgid "Sets the width of the thumbnail."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:385
+msgid "Thumbnail height"
+msgstr "Hauteur de vignette"
+
+#: public/includes/classes/class-cherry-slider-options.php:387
+msgid "Sets the height of the thumbnail."
+msgstr ""
+
+#: public/includes/classes/class-cherry-slider-options.php:394
+msgid "Reach video action"
+msgstr "Reach video action"
+
+#: public/includes/classes/class-cherry-slider-options.php:395
+msgid ""
+"Sets the action that the video will perform when its slide container is "
+"selected."
+msgstr ""
+"Spécifier le comportement de vidéo lors de choix de diapositive qui contient "
+"ce vidéo."
+
+#: public/includes/classes/class-cherry-slider-options.php:400
+msgid "PlayVideo"
+msgstr "Jouer la vidéo"
+
+#: public/includes/classes/class-cherry-slider-options.php:404
+msgid "Cherry Slider"
+msgstr "Diaporama Cherry"
+
+#: public/includes/classes/class-cherry-slider-registration.php:52
+#: public/includes/classes/class-cherry-slider-registration.php:53
+msgid "Slides list"
+msgstr "Liste de diapositives"
+
+#: public/includes/classes/class-cherry-slider-registration.php:54
+#: public/includes/classes/class-cherry-slider-registration.php:55
+msgid "Add new slide"
+msgstr "Ajouter une nouvelle diapositive"
+
+#: public/includes/classes/class-cherry-slider-registration.php:56
+msgid "Edit Slider Item"
+msgstr "Modifier un Élément de Diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:57
+msgid "New Slider Item"
+msgstr "Nouvel Élément de Diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:58
+msgid "View Slider Item"
+msgstr "Voir un Élément de Diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:59
+msgid "Search Slider Items"
+msgstr "Rechercher des Éléments de Diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:60
+msgid "No Slider Items found"
+msgstr "Aucun Élément de Diaporama trouvé"
+
+#: public/includes/classes/class-cherry-slider-registration.php:61
+msgid "No Slider Items found in trash"
+msgstr "Aucun Élément de Diaporama trouvé dans la corbeille"
+
+#: public/includes/classes/class-cherry-slider-registration.php:120
+#: public/includes/classes/class-cherry-slider-registration.php:125
+msgid "Sliders"
+msgstr "Diaporamas"
+
+#: public/includes/classes/class-cherry-slider-registration.php:122
+#: public/includes/classes/class-cherry-slider-registration.php:124
+msgid "All Sliders"
+msgstr "Tous les diaporamas"
+
+#: public/includes/classes/class-cherry-slider-registration.php:123
+msgid "Add New Slider"
+msgstr "Ajouter un nouveau diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:126
+msgid "Update Slider"
+msgstr "Mettre à jour le diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:127
+msgid "New Slider Name"
+msgstr "Nom de nouveau diaporama"
+
+#: public/includes/classes/class-cherry-slider-registration.php:128
+msgid "Search Sliders"
+msgstr "Rechercher des Diaporamas"
+
+#: public/includes/classes/class-cherry-slider-registration.php:129
+msgid "Parent Slider"
+msgstr "Diaporama Parent"
+
+#: public/includes/classes/class-cherry-slider-registration.php:130
+msgid "Parent Slider:"
+msgstr "Diaporama Parent:"
+
+#: public/includes/classes/class-cherry-slider-registration.php:131
+msgid "Edit Slider:"
+msgstr "Modifier le Diaporama:"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:94
+msgid "Post per page"
+msgstr "Article par page"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:95
+msgid ""
+"Specify number of posts that you want to show. Enter -1 to get all posts"
+msgstr ""
+"Précisez le nombre d'articles à afficher. Saisissez -1 pour obtenir tous les "
+"articles"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:100
+msgid "Sets the width of the slider"
+msgstr "Définir la largeur de diaporama"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:105
+msgid "Sets the height of the slider"
+msgstr "Définir la hauteur de diaporama"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:115
+msgid ""
+"Indicates whether the slides will be arranged horizontally or vertically"
+msgstr ""
+"Indique si les diapositives seront disposées horizontalement ou "
+"verticalement."
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:124
+msgid "Sets the distance between the slides"
+msgstr "Définir la distance entre des diapositives."
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:130
+msgid "Indicates whether the arrow buttons will be created"
+msgstr "Indique si les boutons fléchés seront créés"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:136
+msgid "Indicates whether the pagination will be created"
+msgstr "Indique si la pagination sera créée"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:142
+msgid "Indicates whether or not autoplay will be enabled"
+msgstr "Indique si la lecture automatique sera activée"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:148
+msgid "Indicates whether the full-screen button is enabled"
+msgstr "Indique si le bouton Plein écran est activé"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:152
+msgid "Class"
+msgstr "Classe"
+
+#: public/includes/classes/class-cherry-slider-shortcode.php:153
+msgid "Extra CSS class"
+msgstr "Сlasse CSS Extra"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid ""
+#~ "Designates the ascending or descending order of the 'orderby' parameter."
+#~ msgstr "Désigne l'ordre croissant ou décroissant du paramètre 'orderby'."
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "horizontal"
+#~ msgstr "horizontal"
+
+#~ msgid "vertical"
+#~ msgstr "vertical"

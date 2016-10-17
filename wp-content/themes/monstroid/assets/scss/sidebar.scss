@@ -1,0 +1,146 @@
+/* Sidebar
+================================================== */
+.site-content {
+	.widget-area {
+		body.no-padding &,
+		body.top-padding & {
+			padding: 15px 0 0;
+		}
+	}
+}
+.sidebar-content-wrapper,
+.content-sidebar-wrapper {
+	position: relative;
+
+	&:before {
+		content: '';
+		left: $sidebar-main-width+((100%+(($sidebar-main-width+$primary-area-width)*-1))/2);
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 1px;
+		background-color: #ebebeb;
+	}
+	&:after {
+		content: '';
+		display: table;
+		width: 100%;
+		clear: both;
+	}
+	.cherry-sidebar-main.widget-area {
+		width: $sidebar-main-width;
+	}
+	#primary.content-area {
+		width: $primary-area-width;
+	}
+	&.sidebar-width-1_4 {
+		&:before {
+			left: $sidebar-main-width-1_4+((100%+(($sidebar-main-width-1_4+$primary-area-width-1_4)*-1))/2) - 0.1;
+		}
+		.cherry-sidebar-main.widget-area {
+			width: $sidebar-main-width-1_4;
+		}
+		#primary.content-area {
+			width: $primary-area-width-1_4;
+		}
+	}
+}
+body {
+	.sidebar-sidebar-content-wrapper,
+	.sidebar-content-sidebar-wrapper,
+	.sidebar-sidebar-content-wrapper {
+		width: $content-sidebar-wrapper-width;
+
+		#primary.content-area {
+			width: $primary-area-width*0.99;
+		}
+
+		.cherry-sidebar-main.widget-area {
+			width: $sidebar-main-width*1.2;
+		}
+
+		&.sidebar-width-1_4 {
+			width: $content-sidebar-wrapper-width-1_4;
+
+			#primary.content-area {
+				width: 70%;
+			}
+
+			.cherry-sidebar-main.widget-area {
+				width: 26%;
+			}
+		}
+	}
+}
+.cherry-sidebar-secondary.sidebar-secondary.widget-area  {
+	width: $sidebar-secondary-width;
+
+	.sidebar-width-1_4 + & {
+		width: $sidebar-secondary-width-1_4;
+	}
+}
+.content-sidebar-wrapper {
+	&:before {
+		right: $sidebar-main-width+((100%+(($sidebar-main-width+$primary-area-width)*-1))/2);
+		left: auto;
+	}
+
+	&.sidebar-width-1_4 {
+		&:before {
+			right: $sidebar-main-width-1_4+((100%+(($sidebar-main-width-1_4+$primary-area-width-1_4)*-1))/2) - 0.1;
+			left: auto;
+		}
+	}
+}
+
+/* Sidebar Media
+================================================== */
+@media (max-width: $screen-md-min) {
+	.sidebar-content-wrapper:before,
+	.content-sidebar-wrapper:before {
+		display: none;
+	}
+	.site-content {
+		.sidebar-content-wrapper #primary.content-area,
+		.content-sidebar-wrapper #primary.content-area,
+		.sidebar-sidebar-content-wrapper,
+		.sidebar-content-sidebar-wrapper,
+		.sidebar-sidebar-content-wrapper,
+		.sidebar-sidebar-content-wrapper #primary.content-area,
+		.sidebar-content-sidebar-wrapper #primary.content-area,
+		.sidebar-sidebar-content-wrapper #primary.content-area,
+		.sidebar-sidebar-content-wrapper .cherry-sidebar-main.widget-area,
+		.sidebar-content-sidebar-wrapper .cherry-sidebar-main.widget-area,
+		.sidebar-sidebar-content-wrapper .cherry-sidebar-main.widget-area,
+		.cherry-sidebar-secondary.sidebar-secondary.widget-area,
+		.sidebar-sidebar-content-wrapper.sidebar-width-1_4,
+		.sidebar-content-sidebar-wrapper.sidebar-width-1_4,
+		.content-sidebar-sidebar-wrapper.sidebar-width-1_4,
+		.sidebar-sidebar-content-wrapper.sidebar-width-1_4 #primary.content-area,
+		.sidebar-content-sidebar-wrapper.sidebar-width-1_4 #primary.content-area,
+		.content-sidebar-sidebar-wrapper.sidebar-width-1_4 #primary.content-area,
+		.sidebar-sidebar-content-wrapper.sidebar-width-1_4 .cherry-sidebar-main.widget-area,
+		.sidebar-content-sidebar-wrapper.sidebar-width-1_4 .cherry-sidebar-main.widget-area,
+		.content-sidebar-sidebar-wrapper.sidebar-width-1_4 .cherry-sidebar-main.widget-area {
+			width: 100%;
+		}
+	}
+	.site-content {
+		.sidebar-content-wrapper,
+		.content-sidebar-wrapper,
+		.sidebar-content-sidebar-wrapper,
+		.content-sidebar-sidebar-wrapper,
+		.sidebar-sidebar-content-wrapper,
+		.sidebar-content-wrapper.sidebar-width-1_4,
+		.content-sidebar-wrapper.sidebar-width-1_4,
+		.sidebar-content-sidebar-wrapper.sidebar-width-1_4,
+		.content-sidebar-sidebar-wrapper.sidebar-width-1_4,
+		.sidebar-sidebar-content-wrapper.sidebar-width-1_4 {
+
+			.cherry-sidebar-main,
+			.cherry-sidebar-secondary{
+				width: 100%;
+			}
+		}
+	}
+}

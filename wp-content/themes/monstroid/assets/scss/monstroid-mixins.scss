@@ -1,0 +1,224 @@
+$lato: 			'Lato', sans-serif;
+$fontawesome: 	'FontAwesome';
+
+.miniFont {
+	font-weight: 300;
+	font-size: 0.875rem;
+	line-height: 1.6em;
+}
+
+$baseWhite:			#ffffff;
+$borderRadius: 		5px;
+$boxShadow: 		3px 4px 5px 0 rgba(0, 0, 0, 0.1);
+$boxShadowBigger: 	10px 10px 12px rgba(0, 0, 0, 0.07);
+$buttonsBoxShadow: 	3px 4px 5px 0 rgba(0, 0, 0, 0.1);
+$imagesBoxShadow: 	8px 14px 18px 0 rgba(0, 0, 0, 0.11);
+$baseBorderRadius: 	5px;
+$borderColor: 		#ebebeb;
+
+@mixin link-hover($color) {
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: none;
+	}
+	&:hover {
+		color: $color;
+	}
+}
+@mixin keyframes($name){
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+	@keyframes #{$name} {
+		@content;
+	}
+}
+@mixin transition($trsn) {
+	transition: $trsn;
+}
+@mixin transition-delay($trsn-d) {
+	-webkit-transition-delay: $trsn-d;
+	transition-delay: $trsn-d;
+}
+@mixin animation($anim) {
+	-webkit-animation: $anim;
+	animation: $anim;
+}
+@mixin transform-origin($trfm-o) {
+	-webkit-transform-origin: $trfm-o;
+	transform-origin: $trfm-o;
+}
+@mixin transform($trfm) {
+	-webkit-transform: $trfm;
+	transform: $trfm;
+}
+@mixin rotate($deg) {
+	@include transform(rotate(#{$deg}deg));
+}
+@mixin scale($scale) {
+	@include transform(scale($scale));
+}
+@mixin translate($x, $y) {
+	@include transform(translate($x, $y));
+}
+@mixin skew($x, $y) {
+	@include transform(skew(#{$x}deg, #{$y}deg));
+}
+@mixin input-mixin-inset1($width, $height) {
+	width: $width;
+	height: $height;
+	border-radius: $baseBorderRadius;
+	border-width: 1px;
+	border-style: solid;
+	box-sizing: border-box;
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 700;
+	padding: ($height - 28px)/2 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-appearance:none;
+
+	&:focus {
+		outline: 0;
+		outline: none;
+		box-shadow: none;
+	}
+}
+@mixin price-mixin($fz, $lh, $fw) {
+	font-size: $fz;
+	line-height: $lh;
+	font-weight: $fw;
+
+	del, ins {
+		line-height: $lh !important;
+		display: inline-block !important;
+		vertical-align: bottom;
+		text-decoration: none;
+		font-weight: $fw !important;
+	}
+	del {
+		text-decoration: line-through;
+		opacity: 1 !important;
+		font-weight: 300 !important;
+		margin-right: 5px;
+		margin-left: 5px;
+
+		.amount {
+			font-size: inherit;
+			text-decoration: line-through;
+		}
+	}
+	ins {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.amount {
+		font-size: $fz;
+		line-height: $lh;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+%clearfix {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+%quantity-input {
+	width: 120px;
+	height: 80px;
+	border-radius: $baseBorderRadius;
+	border: 1px solid $borderColor;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	padding-right: 45px;
+	padding-left: 5px;
+	box-shadow: none;
+	-moz-appearance:textfield;
+	-webkit-appearance: none;
+
+	&::-webkit-outer-spin-button {
+		display: none;
+	}
+	&::-webkit-inner-spin-button {
+		display: none;
+	}
+	&:focus {
+		outline: 0;
+		outline: none;
+		box-shadow: none;
+	}
+}
+%button-styles {
+	transition: all 300ms;
+	box-shadow: $buttonsBoxShadow;
+	border-radius: $baseBorderRadius;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	text-align: center;
+
+	&:active {
+		box-shadow: none;
+		outline: none;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		box-shadow: none;
+	}
+}
+%gray-button {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 12px 30px;
+	@extend %button-styles;
+}
+%primary-button {
+	font-size: 19px;
+	line-height: 26px;
+	padding: 17px 40px;
+	color: $baseWhite;
+	@extend %button-styles;
+
+	@media (max-width: (480px)) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+%blue-button {
+	font-size: 19px;
+	line-height: 26px;
+	padding: 17px 40px;
+	color: $baseWhite;
+	@extend %button-styles;
+
+	@media (max-width: (480px)) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+%small-button {
+	color: $baseWhite;
+	font-size: 15px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 10px 20px;
+	@extend %button-styles;
+
+	&:hover,
+	&:active {
+		color: $baseWhite;
+	}
+}
+@mixin rem($fz, $lh) {
+    font-size: ($fz / 16) + rem;
+    line-height: ($lh / 16) + rem;
+}

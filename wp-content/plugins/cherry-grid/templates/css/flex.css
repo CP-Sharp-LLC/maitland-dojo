@@ -1,0 +1,40 @@
+.%%class%% .cherry-grid_list {
+	margin: 0 -%%gutter*0.5&px%%
+}
+
+.%%class%% .cherry-grid_item {
+	-webkit-flex: 1 1 %%width&px%%;
+	-moz-flex: 1 1 %%width&px%%;
+	-ms-flex: 1 1 %%width&px%%;
+	flex: 1 1 %%width&px%%;
+	width: %%width&px%%;
+	margin: %%gutter*0.5&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_2 {
+	-webkit-flex: 2 1 %%width*2&px%%;
+	-moz-flex: 2 1 %%width*2&px%%;
+	-ms-flex: 2 1 %%width*2&px%%;
+	flex: 2 1 %%width*2&px%%;
+	width: %%width*2&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_3 {
+	-webkit-flex: 3 1 %%width*3&px%%;
+	-moz-flex: 3 1 %%width*3&px%%;
+	-ms-flex: 3 1 %%width*3&px%%;
+	flex: 3 1 %%width*3&px%%;
+	width: %%width*3&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_4 {
+	-webkit-flex: 4 1 %%width*4&px%%;
+	-moz-flex: 4 1 %%width*4&px%%;
+	-ms-flex: 4 1 %%width*4&px%%;
+	flex: 4 1 %%width*4&px%%;
+	width: %%width*4&px%%;
+	max-width: 100%;
+}
+
+@media (max-width: 767px) {
+	.%%class%% .cherry-grid_list {
+		margin: 0;
+	}
+}

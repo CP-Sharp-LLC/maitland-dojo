@@ -1,0 +1,50 @@
+.cherry-grid {
+	&_list {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+		// flex
+		.type-flex & {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			-webkit-flex-direction: row;
+			-moz-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			-webkit-flex-flow: row wrap;
+			-moz-flex-flow: row wrap;
+			-ms-flex-flow: row wrap;
+			flex-flow: row wrap;
+			width: 100%;
+		}
+	}
+	&_item {
+		list-style: none;
+		padding: 10px;
+		background: #ccc;
+		margin: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+// Older IE fallback
+.no-flex,
+.no-columns {
+	.cherry-grid {
+		&.type-columns {
+			.cherry-grid_item {
+				width: 30%;
+			}
+		}
+		&_item {
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+}

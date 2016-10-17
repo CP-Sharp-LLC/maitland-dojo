@@ -1,0 +1,14 @@
+.%%class%% .cherry-grid_item {
+	float: left;
+	width: %%width&px%%;
+	margin-bottom: %%gutter&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_2 {
+	width: %%width*2&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_3 {
+	width: %%width*3&px%%;
+}
+.%%class%% .cherry-grid_item.cherry-grid_item_4 {
+	width: %%width*4&px%%;
+}

@@ -1,0 +1,8 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">cherry_charts</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">chart</custom-type>
+	</custom-types>
+</wpml-config>

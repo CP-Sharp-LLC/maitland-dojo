@@ -1,0 +1,11 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_cherry_slider</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">cherry_slider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">cherry_slider_sliders</taxonomy>
+	</taxonomies>
+</wpml-config>

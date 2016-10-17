@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-sidebar-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-11 15:55+0200\n"
+"PO-Revision-Date: 2015-12-11 15:55+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/views/cherry-sidebare-to-page.php:75
+msgid "Post Sidebars"
+msgstr "Beitrag-Seitenleiste"
+
+#: admin/views/cherry-sidebare-to-page.php:123
+msgid "Main Sidebar:"
+msgstr "Hauptseitenleiste:"
+
+#: admin/views/cherry-sidebare-to-page.php:128
+msgid "Secondary Sidebar:"
+msgstr "Sekundäre Seitenleiste"
+
+#: admin/views/cherry-sidebare-to-page.php:134
+msgid "Sidebar not selected"
+msgstr "Keine Seitenleiste ausgewählt"
+
+#: admin/views/cherry-sidebare-to-page.php:168
+#, php-format
+msgid ""
+"You can choose page sidebars or create a new sidebar on %swidgets page%s ."
+msgstr ""
+"Sie können Seiten-Seitenleisten auswählen oder eine neue Seitenleiste auf "
+"%sWidgets Seite%sn erstellen ."
+
+#: admin/views/cherry-sidebare-to-page.php:168
+msgid "Widgets Page"
+msgstr "Widgets-Seite"
+
+#: admin/views/cherry-widgets-page.php:30
+msgid "Create new custom sidebar."
+msgstr "Neue eigene Seitenleiste erstellen"
+
+#: admin/views/cherry-widgets-page.php:39
+msgid "Sidebar name:"
+msgstr "Seitenleiste-Name"
+
+#: admin/views/cherry-widgets-page.php:52
+msgid "Sidebar description:"
+msgstr "Seitenleiste-Beschreibung"
+
+#: admin/views/cherry-widgets-page.php:60
+msgid "Create Sidebar"
+msgstr "Seitenleiste erstellen"
+
+#: admin/views/cherry-widgets-page.php:64
+msgid "Cannot add new custom sidebar"
+msgstr "Kann neue eigene Seitenleiste nicht hinzufügen"
+
+#: admin/views/cherry-widgets-page.php:72
+msgid "Default Sidebars"
+msgstr "Standard-Seitenleisten"
+
+#: admin/views/cherry-widgets-page.php:75
+msgid "Default sidebars created in child theme code itself."
+msgstr ""
+"Standard-Seitenleisten, die selbst in untergeordnetem Thema-Code erstellt "
+"sind."
+
+#: admin/views/cherry-widgets-page.php:81
+msgid "Cherry Custom Sidebars"
+msgstr "Kirsche eigene Seitenleisten"
+
+#: admin/views/cherry-widgets-page.php:84
+msgid ""
+"You can create a custom sidebar yourself and enable if for any page or post. "
+"This can be done on page editing stage."
+msgstr ""
+"Sie können eigene Seitenleiste selbst erstellen oder aktivieren wenn für "
+"jede Seite oder jeden Beitrag. Dies kann während des Bearbeitens der Seite "
+"gemacht werden,"
+
+#: admin/views/cherry-widgets-page.php:85
+msgid "Create a new sidebar"
+msgstr "Neue Seitenleiste erstellen"
+
+#~ msgid "Secondary Sidebars:"
+#~ msgstr "Sekundäre Seitenleiste:"

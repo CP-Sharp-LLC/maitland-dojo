@@ -1,0 +1,11 @@
+.custom-image-phone {
+	position: relative;
+	max-width: none;
+	width: auto;
+	margin-bottom: -80px;
+	bottom: -35px;
+
+	@media (max-width: 992px) {
+		display: none;
+	}
+}

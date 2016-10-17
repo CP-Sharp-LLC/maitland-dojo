@@ -1,0 +1,37 @@
+@import "tm_mixins";
+
+.slider-container{
+	width: 100%;
+	position: relative;
+	opacity: 0;
+		.slider-pro{
+			.sp-slides-container{
+				.sp-slides{
+					.sp-slide{
+						iframe.sp-video{
+							width: 100%;
+							height: 100%;
+						}
+						video.sp-video{
+							width: 100%;
+							height: 100%;
+						}
+						a.sp-video:after{
+							height: 45px;
+							line-height: 40px;
+						}
+					}
+				}
+			}
+			.sp-thumbnails-container{
+				.sp-thumbnails{
+					.sp-thumbnail-container{
+						border: 0px solid #f62e46;
+						&.sp-selected-thumbnail{
+							border: 5px solid #f62e46;
+						}
+					}
+				}
+			}
+		}
+}

@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: monstroid-wizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 12:41+0200\n"
+"PO-Revision-Date: 2015-12-14 12:41+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-monstroid-wizard-helper.php:74
+msgid "Please, fill required fields"
+msgstr "Veuillez remplir tous les champs requis"
+
+#: includes/class-monstroid-wizard-helper.php:97
+msgid "Can`t send activation request. "
+msgstr "Impossible d'envoyer la demande d'activation."
+
+#: includes/class-monstroid-wizard-helper.php:104
+msgid "Activation request error. "
+msgstr "Erreur de demande d’activation."
+
+#: includes/class-monstroid-wizard-helper.php:114
+msgid "Bad request."
+msgstr "Requête incorrecte."
+
+#: includes/class-monstroid-wizard-helper.php:123
+msgid "Wrong license key. Make sure activation key is correct."
+msgstr ""
+"Clé de licence erronées. Assurez-vous que la clé d'activation est correcte."
+
+#: includes/class-monstroid-wizard-helper.php:132
+#: includes/class-monstroid-wizard-helper.php:139
+msgid ""
+"Sorry, the license key you are trying to use exceeded the maximum amount of "
+"activations was applied for 3 domains"
+msgstr ""
+"Désolé, la clé de licence que vous essayez d'utiliser a dépassé le nombre "
+"maximal d'activations ( a été appliquée pour 3 domaines)"
+
+#: includes/class-monstroid-wizard-helper.php:157
+msgid ""
+"License key is invalid or evaluation expired. Please, contact Support Live "
+"Chat: <a href=\"http://chat.template-help.com/\">http://chat.template-help."
+"com/</a>"
+msgstr ""
+"La clé de licence n'est pas valide ou l'évaluation a expiré.Veuillez "
+"contacter Support Live Chat<a href=\"http://chat.template-help.com/\">http://"
+"chat.template-help.com/</a>"
+
+#: includes/class-monstroid-wizard-helper.php:166
+msgid "Theme is not available yet. Please try again in 10 minutes."
+msgstr ""
+"Thème n'est pas encore disponible. Veuillez essayer de nouveau dans 10 "
+"minutes."
+
+#: includes/class-monstroid-wizard-helper.php:175
+msgid "Theme is not available. Please contact support team for help."
+msgstr ""
+"Thème n'est pas disponible. Veuillez contacter une équipe de soutien "
+"technique."
+
+#: includes/class-monstroid-wizard-helper.php:193
+msgid "Everything is ready. Starting theme installation..."
+msgstr "Tout est prêt. Commencement de l'installation de thème..."
+
+#: includes/class-monstroid-wizard-helper.php:229
+msgid "Broken request data"
+msgstr "Demande de données brisé"
+
+#: includes/class-monstroid-wizard-helper.php:239
+msgid "License key not found"
+msgstr "Clé de licence n'a pas été trouvé"
+
+#: includes/class-monstroid-wizard-helper.php:262
+msgid "Can't send remote request"
+msgstr "Impossible d'envoyer la demande à distance"
+
+#: includes/class-monstroid-wizard-helper.php:269
+msgid "Remote request failed"
+msgstr "Demande à distance a échoué"
+
+#: includes/class-monstroid-wizard-helper.php:278
+msgid "Invalid API response"
+msgstr "Réponse de l'API non valide"
+
+#: includes/class-monstroid-wizard-install-handlers.php:377
+msgid "Can't download CherryFramework"
+msgstr "Impossible de télécharger CherryFramework"
+
+#: includes/class-monstroid-wizard-install-handlers.php:393
+msgid "Installing child theme"
+msgstr "Installation de thème fils"
+
+#: includes/class-monstroid-wizard-install-handlers.php:421
+msgid "Theme license not activated"
+msgstr "Licence de thème non activée"
+
+#: includes/class-monstroid-wizard-install-handlers.php:427
+msgid "Can't find theme link"
+msgstr "Impossible de trouver le lien de thème"
+
+#: includes/class-monstroid-wizard-install-handlers.php:449
+msgid "Activating child theme"
+msgstr "Activation de thème fils"
+
+#: includes/class-monstroid-wizard-install-handlers.php:481
+msgid "Theme name was not provided. Please activate your theme agian"
+msgstr "Thème n'a pas été indiqué. Veuillez activer votre thème de nouveau"
+
+#: includes/class-monstroid-wizard-install-handlers.php:491
+msgid "This theme already active"
+msgstr "Ce theme est déjà actif"
+
+#: includes/class-monstroid-wizard-install-handlers.php:492
+#: includes/class-monstroid-wizard-install-handlers.php:501
+msgid "Installing Live Chat"
+msgstr "Installation de Live Chat"
+
+#: includes/class-monstroid-wizard-install-handlers.php:500
+msgid "Theme successfully activated"
+msgstr "Thème a été activé avec succès"
+
+#: includes/class-monstroid-wizard-install-handlers.php:532
+msgid "Can`t download Live Chat"
+msgstr "Impossible de télécharger Live Chat"
+
+#: includes/class-monstroid-wizard-install-handlers.php:566
+#: includes/class-monstroid-wizard-install-handlers.php:642
+#: includes/class-monstroid-wizard-install-handlers.php:909
+msgid "Plugin activated"
+msgstr "Plugin a été activé"
+
+#: includes/class-monstroid-wizard-install-handlers.php:573
+msgid "Installing Data Manager"
+msgstr "Installation de Gestionnaire de Données"
+
+#: includes/class-monstroid-wizard-install-handlers.php:608
+msgid "Can`t download Data Manager"
+msgstr "Impossible de télécharger Gestionnaire de Données"
+
+#: includes/class-monstroid-wizard-install-handlers.php:659
+msgid "Installing required plugins"
+msgstr "Installation des plugins requis"
+
+#: includes/class-monstroid-wizard-install-handlers.php:661
+msgid "Preparing required plugins"
+msgstr "Préparation des plugins requis"
+
+#: includes/class-monstroid-wizard-install-handlers.php:705
+msgid "All done"
+msgstr "Terminé"
+
+#: includes/class-monstroid-wizard-install-handlers.php:740
+#: includes/class-monstroid-wizard-install-handlers.php:781
+#, php-format
+msgid "Installing %s"
+msgstr "Installation %s"
+
+#: includes/class-monstroid-wizard-install-handlers.php:748
+msgid "Plugins prepared"
+msgstr "Plugins préparés"
+
+#: includes/class-monstroid-wizard-install-handlers.php:814
+msgid "Plugin not exist"
+msgstr "Plugin n'existe pas"
+
+#: includes/class-monstroid-wizard-install-handlers.php:855
+msgid "Can`t download "
+msgstr "Impossible de télécharger"
+
+#: includes/class-monstroid-wizard-install-handlers.php:967
+msgid "Next step"
+msgstr "Étape suivante"
+
+#: includes/class-monstroid-wizard-install-handlers.php:971
+msgid "Details"
+msgstr "Détails"
+
+#: includes/class-monstroid-wizard-interface.php:104
+#: includes/class-monstroid-wizard-interface.php:105
+msgid "Monstroid Wizard"
+msgstr "Monstroid Wizard"
+
+#: includes/class-monstroid-wizard-interface.php:140
+#: includes/monstroid-wizard-service-hooks.php:279
+#: includes/views/wizard-select-theme.php:27
+msgid "Back"
+msgstr "Retour"
+
+#: includes/class-monstroid-wizard-notices.php:124
+msgid "Wizard will help you to install your Monstroid theme."
+msgstr "Wizard vous aidera à installer votre thème Monstroid."
+
+#: includes/class-monstroid-wizard-notices.php:129
+msgid "Install theme"
+msgstr "Installer un thème"
+
+#: includes/class-monstroid-wizard-notices.php:133
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#: includes/class-monstroid-wizard-notices.php:169
+msgid "Plugins directory not writable"
+msgstr "Répertoire de plugins n'est pas accessible en écriture"
+
+#: includes/class-monstroid-wizard-notices.php:177
+msgid "Themes directory not writable"
+msgstr "Répertoire de thème n'est pas accessible en écriture"
+
+#: includes/class-monstroid-wizard-notices.php:185
+msgid "Uploads directory not writable"
+msgstr "Répertoire d'uploads n'est pas accessible en écriture"
+
+#: includes/class-monstroid-wizard-notices.php:318
+msgid ""
+"Your hosting server configuration doesn't meet Cherry Framework requirements."
+msgstr ""
+"La configuration de votre serveur d'hébergement ne répondent pas aux "
+"exigences de Cherry Framework."
+
+#: includes/class-monstroid-wizard-notices.php:319
+msgid "More Details"
+msgstr "Plus de détails"
+
+#: includes/class-monstroid-wizard-notices.php:327
+msgid "Continue anyway"
+msgstr "Continuer quand même"
+
+#: includes/class-monstroid-wizard-notices.php:334
+msgid "Change required settings and try again"
+msgstr "Modifiez les paramètres requis et essayez de nouveau"
+
+#: includes/class-monstroid-wizard-notices.php:335
+msgid "Try again"
+msgstr "Essayez à nouveau"
+
+#: includes/class-monstroid-wizard-themes-list.php:100
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: includes/class-monstroid-wizard-themes-list.php:101
+#: includes/views/wizard-select-type.php:53
+#: includes/views/wizard-select-type.php:75
+msgid "Install"
+msgstr "Installer"
+
+#: includes/class-monstroid-wizard-themes-list.php:150
+msgid "page"
+msgstr "page"
+
+#: includes/class-monstroid-wizard-themes-list.php:172
+msgid "prev"
+msgstr "préc"
+
+#: includes/class-monstroid-wizard-themes-list.php:177
+msgid "next"
+msgstr "suiv"
+
+#: includes/monstroid-wizard-service-hooks.php:175
+msgid "complete"
+msgstr "terminé"
+
+#: includes/views/wizard-advanced-install.php:20
+msgid "Advanced Theme & Plugins Installation"
+msgstr ""
+
+#: includes/views/wizard-advanced-install.php:33
+msgid "Install full package"
+msgstr ""
+
+#: includes/views/wizard-advanced-install.php:39
+msgid "Install lite package (without shop)"
+msgstr ""
+
+#: includes/views/wizard-advanced-install.php:45
+#: includes/views/wizard-start.php:58
+msgid "Start"
+msgstr "Commencer"
+
+#: includes/views/wizard-select-theme.php:30
+msgid "Select theme to install"
+msgstr "Sélectionnez le thème à installer"
+
+#: includes/views/wizard-select-theme.php:34
+msgid ""
+"If you have installed the Monstroid theme or any other child theme fr om the "
+"Monstroid pack, please remove your posts, pages and uploads prior proceeding "
+"with new Monstroid/child theme installation to avoid issues and content "
+"duplication."
+msgstr ""
+"Si vous avez essayé d'installer le thème Monstroid ou tout autre thème fils "
+"Monstroid, veuillez supprimer vos articles, vos pages et des fichiers médias "
+"avant de procéder à l'installation du nouveau thème Monstroid ou thème fils "
+"pour éviter des problèmes et la duplication de contenu."
+
+#: includes/views/wizard-select-type.php:34
+msgid "Please, select the installation process"
+msgstr "Veuillez sélectionner la mode d'installation"
+
+#: includes/views/wizard-select-type.php:37
+msgid ""
+"Please, choose the theme you would like to install. You can install full "
+"Monstroid pack which includes all pages, plugins, sample content etc or "
+"install any other child theme included within the Monstroid template package."
+msgstr ""
+"Veuillez choisir le thème que vous souhaitiez installer. Vous pouvez "
+"installer le pack complet Monstroid qui comprend toutes les pages, plugins "
+"et le contenu d'exemple ou installer un autre thème fils qui est inclus dans "
+"le package de modèle Monstroid."
+
+#: includes/views/wizard-select-type.php:45
+msgid "Install Monstroid Main Theme"
+msgstr "Installer un thème principal Monstroid"
+
+#: includes/views/wizard-select-type.php:58
+msgid "Advanced install"
+msgstr ""
+
+#: includes/views/wizard-select-type.php:67
+msgid "Install One of Child Themes"
+msgstr "Installer un des thèmes fils Monstroid"
+
+#: includes/views/wizard-start.php:21
+msgid "Welcome to Monstroid Installation!"
+msgstr "Bienvenue à l'installation de Monstroid!"
+
+#: includes/views/wizard-start.php:28
+msgid ""
+"Please make sure your WordPress is upgraded to version <b>4.2.2</b> or "
+"later. This version contains vital security and stability updates required "
+"for the correct work of Cherry Framework."
+msgstr ""
+"Veuillez vous assurer que votre WordPress est mis à jour vers la version "
+"<b>4.2.2</b> ou plus récente. Cette version contient les mises à jour de "
+"sécurité et de stabilité requises pour le travail correct de Cherry "
+"Framework."
+
+#: includes/views/wizard-start.php:37
+msgid ""
+"Direct write access not allowed on your server. Please, contact our support "
+"team to continue installation."
+msgstr ""
+"L'accès en écriture direct n'est pas autorisé sur votre serveur. Veuillez "
+"contacter votre équipe de support pour continuer l'installation."
+
+#: includes/views/wizard-start.php:42
+msgid ""
+"Please input license key to begin theme installation. Please note: you can "
+"use a single license key for no more than <b><a href=\"http://info.template-"
+"help.com/help/quick-start-guide/wordpress-themes/monstroid/index.php?"
+"lang=en&section=extras#license-faqs\">1 domain</a></b>."
+msgstr ""
+"Veuillez entrer la clé de licence pour commencer l'installation de theme. "
+"Veuillez noter: vous pouvez utiliser une seule clé de licence pour <b><a "
+"href=\"http://info.template-help.com/help/quick-start-guide/wordpress-themes/"
+"monstroid/index.php?lang=en&section=extras#license-faqs\">un seul domaine</"
+"a></b>."
+
+#: includes/views/wizard-start.php:50
+msgid "Activation Key"
+msgstr "Clé d'activation"
+
+#: includes/views/wizard-start.php:53
+msgid "Enter theme activation key"
+msgstr "Entrez la clé d'activation de thème"
+
+#: includes/views/wizard-start.php:66
+msgid "Get theme key"
+msgstr "Obtenir la clé de thème"
+
+#: includes/views/wizard-start.php:67
+msgid "Order ID"
+msgstr "ID de Commande"
+
+#: includes/views/wizard-start.php:68
+msgid "Request"
+msgstr "Demande"
+
+#: includes/views/wizard-success.php:32
+msgid "Congratulations"
+msgstr "Félicitations"
+
+#: includes/views/wizard-success.php:34
+msgid "You have successfully installed your new theme with sample data."
+msgstr ""
+"Vous avez réussi à installer votre nouveau thème avec les données de "
+"l'échantillon."
+
+#: includes/views/wizard-success.php:37
+msgid "View your site"
+msgstr "Voir votre site"
+
+#: includes/views/wizard-success.php:38
+msgid "Go to Cherry Options"
+msgstr "Allez dans Cherry Options"
+
+#: includes/views/wizard-theme-install.php:29
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/views/wizard-theme-install.php:33
+msgid "Demo"
+msgstr "Demo"
+
+#: includes/views/wizard-theme-install.php:37
+msgid "Undefined"
+msgstr "Indéfini"
+
+#: includes/views/wizard-theme-install.php:71
+msgid "Theme &amp; Plugins Installation"
+msgstr "Thème &amp; Installation de plugins"
+
+#: includes/views/wizard-theme-install.php:74
+msgid "Installing Cherry Framework, child theme and plugins."
+msgstr " Installation de Cherry Framework, de thème fils et de plugins."
+
+#: includes/views/wizard-theme-install.php:102 monstroid-wizard.php:417
+#: monstroid-wizard.php:422
+msgid "Retry"
+msgstr "Réessayer"
+
+#: includes/views/wizard-theme-install.php:112
+msgid "Installing Cherry framework"
+msgstr " Installation de Cherry Framework"
+
+#: monstroid-wizard.php:209
+msgid "Theme installation complete. Redirecting to the next step..."
+msgstr "Installation de thème terminée. L'étape suivante..."
+
+#: monstroid-wizard.php:417
+msgid "Please select installation type"
+msgstr "Veuillez sélectionner le type d'installation"
+
+#: monstroid-wizard.php:422
+msgid "Activate your license before installation"
+msgstr "Activez votre licence avant l'installation"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Vignette "
+
+#~ msgid "Testimonial Options"
+#~ msgstr "Options de Témoignages"
+
+#~ msgid "Name:"
+#~ msgstr "Nom:"
+
+#~ msgid "Enter author's name."
+#~ msgstr "Entrez le nom de l'auteur."
+
+#~ msgid "E-mail:"
+#~ msgstr "Adresse électronique:"
+
+#~ msgid "Enter an e-mail address."
+#~ msgstr "Entrez une Adresse électronique."
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Enter the URL."
+#~ msgstr "Saisir l'URL."
+
+#~ msgid "Title:"
+#~ msgstr "Titre:"
+
+#~ msgid "Limit:"
+#~ msgstr "Limite:"
+
+#~ msgid "Image Size (in pixels):"
+#~ msgstr "Taille de l'Image (en pixels):"
+
+#~ msgid "Display Author"
+#~ msgstr "Afficher l’Auteur"
+
+#~ msgid "Display Avatar"
+#~ msgstr "Afficher l'Avatar"
+
+#~ msgid "Specific ID:"
+#~ msgstr "ID spécifique:"
+
+#~ msgid "Testimonials Post IDs, separated by commas."
+#~ msgstr "IDs d'articles Témoignages, séparées par des virgules."
+
+#~ msgid "Order By:"
+#~ msgstr "Trier par:"
+
+#~ msgid "Order Direction:"
+#~ msgstr "Direction de l'Ordre"
+
+#~ msgid "Post content:"
+#~ msgstr "Contenu de l'article"
+
+#~ msgid "Content Length:"
+#~ msgstr "Longueur du Contenu:"
+
+#~ msgid "Template:"
+#~ msgstr "Modèle:"
+
+#~ msgid "Custom CSS Class:"
+#~ msgstr "Classe CSS Personalisée:"
+
+#~ msgid "Testimonials posts"
+#~ msgstr "Articles témoignages"
+
+#~ msgid ""
+#~ "You can choose if you want to display sidebars and how you want to "
+#~ "display them."
+#~ msgstr ""
+#~ "Vous pouvez choisir si vous voulez afficher des barres latérales et la "
+#~ "façon dont vous souhaitez les afficher."
+
+#~ msgid "Left sidebar"
+#~ msgstr "Barre latérale gauche"
+
+#~ msgid "Right sidebar"
+#~ msgstr "Barre latérale droite"
+
+#~ msgid "Left and right sidebar"
+#~ msgstr "Barre latérale gauche et droite"
+
+#~ msgid "Two sidebars on the left"
+#~ msgstr "Deux barres latérales sur le côté gauche"
+
+#~ msgid "Two sidebars on the right"
+#~ msgstr "Deux barres latérales sur le côté droit"
+
+#~ msgid "No sidebar"
+#~ msgstr "Sans barre latérale"
+
+#~ msgid "Testimonials"
+#~ msgstr "Témoignages"
+
+#~ msgid "Testimonial"
+#~ msgstr "Témoignage"
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter "
+
+#~ msgid "Add New Testimonial"
+#~ msgstr "Ajouter un Nouveau Témoignage"
+
+#~ msgid "Edit Testimonial"
+#~ msgstr "Modifier le Témoignage"
+
+#~ msgid "New Testimonial"
+#~ msgstr "Nouveau Témoignage"
+
+#~ msgid "View Testimonial"
+#~ msgstr "Voir le Témoignage"
+
+#~ msgid "Search Testimonials"
+#~ msgstr "Recherche  des Témoignages"
+
+#~ msgid "No testimonials found"
+#~ msgstr "Aucun témoignage trouvé"
+
+#~ msgid "No testimonials found in trash"
+#~ msgstr "Aucun témoignage trouvé dans la corbeille"
+
+#~ msgid "Testimonials Categories"
+#~ msgstr "Catégories de Témoignages "
+
+#~ msgid "Edit Category"
+#~ msgstr "Modifier une Catégorie"
+
+#~ msgid "Search Categories"
+#~ msgstr "Recherche des Catégories"
+
+#~ msgid "Popular Categories"
+#~ msgstr "Catégories Populaires"
+
+#~ msgid "All Categories"
+#~ msgstr "Toutes les catégories"
+
+#~ msgid "Update Category"
+#~ msgstr "Mise à jour de Catégorie"
+
+#~ msgid "Add New Category"
+#~ msgstr "Ajouter une Nouvelle Catégorie "
+
+#~ msgid "New Category Name"
+#~ msgstr "Nom de la Nouvelle Catégorie"
+
+#~ msgid "Separate categories with commas"
+#~ msgstr "Catégories séparées par des virgules"
+
+#~ msgid "Add or remove categories"
+#~ msgstr "Ajouter ou supprimer des catégories"
+
+#~ msgid "Choose from the most used categories"
+#~ msgstr "Choisissez parmi les catégories les plus utilisées"
+
+#~ msgid "No categories found."
+#~ msgstr "Aucune catégorie trouvée."
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Limit"
+#~ msgstr "Limite"
+
+#~ msgid "Maximum number of posts."
+#~ msgstr "Nombre maximal d'articles."
+
+#~ msgid "Descending"
+#~ msgstr "Descendant"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendant "
+
+#~ msgid "Order"
+#~ msgstr "Ordre"
+
+#~ msgid "Posts order"
+#~ msgstr "Ordre des articles"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Post ID"
+#~ msgstr "ID de l'article"
+
+#~ msgid "Post author"
+#~ msgstr "Auteur de l'article"
+
+#~ msgid "Post title"
+#~ msgstr "Titre de l'article"
+
+#~ msgid "Post slug"
+#~ msgstr "Identifiant de l'article"
+
+#~ msgid "Last modified date"
+#~ msgstr "Dernière date de modification"
+
+#~ msgid "Post parent"
+#~ msgstr "Article Parent"
+
+#~ msgid "Random"
+#~ msgstr "Aléatoire"
+
+#~ msgid "Comments number"
+#~ msgstr "Nombre de commentaires"
+
+#~ msgid "Menu order"
+#~ msgstr "Ordre du menu"
+
+#~ msgid "Meta key values"
+#~ msgstr "Meta key values"
+
+#~ msgid "Order by"
+#~ msgstr "Trier par"
+
+#~ msgid "Order posts by"
+#~ msgstr "Trier des articles par"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Select category to show testimonials from"
+#~ msgstr "Sélectionnez la catégorie des témoignages à afficher"
+
+#~ msgid "Post ID's"
+#~ msgstr "IDs d'article"
+
+#~ msgid "Enter comma separated ID's of the posts that you want to show"
+#~ msgstr "Entrez ID's d'articles à afficher séparés par des virgules "
+
+#~ msgid "Display author?"
+#~ msgstr "Afficher l’Auteur"
+
+#~ msgid "Display avatar?"
+#~ msgstr "Afficher l'avatar?"
+
+#~ msgid "Avatar size"
+#~ msgstr "Taille de l'avatar"
+
+#~ msgid "Avatar size (in pixels)"
+#~ msgstr "Taille de l'avatar (en pixels)"
+
+#~ msgid "Part of content"
+#~ msgstr "Partie du contenu"
+
+#~ msgid "Full content"
+#~ msgstr "Contenu complet"
+
+#~ msgid "Post content"
+#~ msgstr "Contenu de l'article"
+
+#~ msgid "Choose to display a part or full content"
+#~ msgstr ""
+#~ "Choisissez si vous voulez afficher une partie du contenu ou le contenu "
+#~ "complet"
+
+#~ msgid "Content Length"
+#~ msgstr "Longueur du Contenu:"
+
+#~ msgid "Insert the number of words you want to show in the post content."
+#~ msgstr ""
+#~ "Insérez le nombre de mots que vous voulez afficher dans le contenu "
+#~ "d'articles."
+
+#~ msgid "Template"
+#~ msgstr "Modèle"
+
+#~ msgid "Shortcode template"
+#~ msgstr "Modèle de shortcode"
+
+#~ msgid "Class"
+#~ msgstr "Classe"
+
+#~ msgid "Extra CSS class"
+#~ msgstr "Сlasse CSS Extra"
+
+#~ msgid "Author's name"
+#~ msgstr "Nom de l'auteur"
+
+#~ msgid "Author's avatar"
+#~ msgstr "Avatar de l'auteur"
+
+#~ msgid "Author's email"
+#~ msgstr "Email de l'auteur"
+
+#~ msgid "Author's URL"
+#~ msgstr "URL de l'auteur"
+
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#~ msgid "Author's name (Testimonials only)"
+#~ msgstr "Nom de l'auteur (Témoignages seulement)"
+
+#~ msgid "Author's email (Testimonials only)"
+#~ msgstr "Email de l'auteur (Témoignages seulement)"
+
+#~ msgid "Author's URL (Testimonials only)"
+#~ msgstr "URL de l'auteur (Témoignages seulement)"
+
+#~ msgid "Cherry Testimonials"
+#~ msgstr "Témoignages Cherry"
+
+#~ msgid "Your site's most recent Testimonials."
+#~ msgstr "Témoignages les plus récents de votre site."
+
+#~ msgid "No Order"
+#~ msgstr "No Order"
+
+#~ msgid "Entry ID"
+#~ msgstr "ID d'entrée"
+
+#~ msgid "Date Added"
+#~ msgstr "Date Ajoutée"
+
+#~ msgid "Attributes Order"
+#~ msgstr "Attributes Order"
+
+#~ msgid "Random Order"
+#~ msgstr "Ordre Aléatoire"
+
+#~ msgid "Author's avatar (Testimonials only)"
+#~ msgstr "Avatar de l'auteur (Témoignages seulement)"
