@@ -26,10 +26,10 @@ define('DB_NAME', 'maitlanddojo');
 define('DB_USER', 'maitlanddojo');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ASPdotNet#1');
+define('DB_PASSWORD', 'MDJ);
 
 /** MySQL hostname */
-define('DB_HOST', '68.178.217.16');
+define('DB_HOST', 'MDJ');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
