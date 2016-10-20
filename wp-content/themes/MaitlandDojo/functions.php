@@ -268,7 +268,7 @@ function cherry_child_menu_meta( $extra_meta ) {
 /**
  * custom theme colors
  */
-add_filter('cherry_color_options_list', 'theme3632_add_color_options');
+/*add_filter('cherry_color_options_list', 'theme3632_add_color_options');
 function theme3632_add_color_options($arg){
     
     $arg['theme-color-1'] = array(
@@ -302,13 +302,13 @@ function theme3632_add_color_options($arg){
 	);
     
     return $arg;
-}
+}*/
 
 
 /**
  * adding variables for colors
  */
-add_filter ('cherry_css_var_list', 'theme3632_add_vars');
+/*add_filter ('cherry_css_var_list', 'theme3632_add_vars');
     function theme3632_add_vars($var_list) {
         $var_list[] = 'theme-color-1';
         
@@ -320,7 +320,7 @@ add_filter ('cherry_css_var_list', 'theme3632_add_vars');
         
         $var_list[] = 'theme-color-5';
         return $var_list;
-    }
+    }*/
 
 /* mobile menu */
 add_filter('cherry_menu_toogle_endpoint', 'theme3632_menu_toogle_endpoint');
@@ -345,10 +345,10 @@ function theme3632_sticky_selectors($arg){
 
 
 /* material icons */
-add_filter( 'cherry_custom_font_icons', 'theme3632_custom_font_icons' );
+add_filter( 'cherry_custom_font_icons', 'dojo_custom_font_icons' );
 
-function theme3632_custom_font_icons($icons) {
- $icons['theme3632_material_icon'] = get_stylesheet_directory_uri() . '/assets/css/material-design.css';
+function dojo_custom_font_icons($icons) {
+ $icons['theme3632_material_icon'] = get_stylesheet_directory_uri() . '/css/material-design.css';
  /*$icons['theme3575_flat_icon'] = get_stylesheet_directory_uri() . '/assets/css/font_name.css';    add new font*/
  return $icons;
 }
@@ -356,7 +356,7 @@ function theme3632_custom_font_icons($icons) {
 /* footer text */
 add_filter( 'cherry_default_footer_info_format','theme3632_footerinfo');
 function theme3632_footerinfo($arg){
-    $arg = '&copy; %1$s %3$s';
+    $arg = '&copy; Dojo of Maitland. Design by <a href="http://www.cpsharp.net">CP Sharp</a>.';
     
     return $arg; 
 }

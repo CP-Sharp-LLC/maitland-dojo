@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassConfigPath" value="$MODULE_DIR$/wp-content/themes/MaitlandDojo/config.rb" />
+    <option name="compassExecutableFilePath" value="$USER_HOME$/.gem/ruby/2.3.0/bin/compass" />
+    <option name="compassSupportEnabled" value="true" />
+    <option name="importPaths">
+      <list>
+        <option value="$USER_HOME$/.gem/ruby/2.3.0/gems/compass-core-1.0.3/stylesheets" />
+      </list>
+    </option>
+  </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/wp-content/themes/MaitlandDojo/init/css" />
+      <excludeFolder url="file://$MODULE_DIR$/wp-content/themes/cherryframework4/init/css" />
+      <excludeFolder url="file://$MODULE_DIR$/wp-content/themes/monstroid" />
+      <excludeFolder url="file://$MODULE_DIR$/wp-content/themes/theme55026" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -14,5 +29,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="compass-library" level="project" />
   </component>
 </module>

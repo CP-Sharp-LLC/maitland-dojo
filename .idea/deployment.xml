@@ -5,8 +5,13 @@
       <paths name="godaddy root">
         <serverdata>
           <mappings>
-            <mapping deploy="/maitlanddojo.com/dev" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/maitlanddojo.com/dev/wp-content/themes" local="$PROJECT_DIR$/wp-content/themes" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/theme55026" />
+            <excludedPath path="/maitlanddojo.com/dev/wp-content/themes/theme55026" />
+            <excludedPath path="/maitlanddojo.com/dev/wp-content/themes/monstroid" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
